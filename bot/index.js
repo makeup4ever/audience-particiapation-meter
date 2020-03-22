@@ -6,4 +6,5 @@ const { sleep } = require('../modules/utils');
 const { showWallets } = require('../modules/wallet');
 const { removePrevUpOffers, deleteOfferOperation, patchOffers, fetchOffers, filterOffers } = require('../modules/offers');
 const { submitTransaction } = require('../modules/transaction');
-const { loadAccountFromSeed } = require('../modules/account')
+const { loadAccountFromSeed } = require('../modules/account');
+const { assetUid } = require('../modu
