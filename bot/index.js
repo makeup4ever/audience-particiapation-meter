@@ -8,4 +8,6 @@ const { removePrevUpOffers, deleteOfferOperation, patchOffers, fetchOffers, filt
 const { submitTransaction } = require('../modules/transaction');
 const { loadAccountFromSeed } = require('../modules/account');
 const { assetUid } = require('../modules/asset');
-const BigNumber = requ
+const BigNumber = require('bignumber.js');
+
+class Bot
