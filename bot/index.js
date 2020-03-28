@@ -12,4 +12,7 @@ const BigNumber = require('bignumber.js');
 
 class Bot {
 
-  constructor(seed, oracl
+  constructor(seed, oracle){
+
+    this.seed = seed;
+    this.ora
