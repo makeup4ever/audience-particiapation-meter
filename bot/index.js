@@ -10,4 +10,6 @@ const { loadAccountFromSeed } = require('../modules/account');
 const { assetUid } = require('../modules/asset');
 const BigNumber = require('bignumber.js');
 
-class Bot
+class Bot {
+
+  constructor(seed, oracl
