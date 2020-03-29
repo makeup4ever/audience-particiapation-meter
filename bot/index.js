@@ -21,3 +21,4 @@ class Bot {
 
   async run(){
 
+    const { account, pair } = await l
