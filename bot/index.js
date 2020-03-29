@@ -15,4 +15,9 @@ class Bot {
   constructor(seed, oracle){
 
     this.seed = seed;
-    this.ora
+    this.oracle = oracle;
+
+  }
+
+  async run(){
+
