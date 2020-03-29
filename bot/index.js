@@ -21,4 +21,4 @@ class Bot {
 
   async run(){
 
-    const { account, pair } = await l
+    const { account, pair } = await loadAccountFromSeed(thi
