@@ -21,4 +21,5 @@ class Bot {
 
   async run(){
 
-    const { account, pair } = await loadAccountFromSeed(thi
+    const { account, pair } = await loadAccountFromSeed(this.seed);
+    const actualOffers = await fetchOf
