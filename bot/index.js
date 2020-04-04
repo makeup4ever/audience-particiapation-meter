@@ -24,4 +24,6 @@ class Bot {
     const { account, pair } = await loadAccountFromSeed(this.seed);
     const actualOffers = await fetchOffers(account);
 
-    patchOffers(actualOffers, 
+    patchOffers(actualOffers, account);
+
+    this.account = account;
