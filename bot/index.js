@@ -29,4 +29,6 @@ class Bot {
     this.account = account;
     this.keypair = pair;
 
-    if(act
+    if(actualOffers.length > 0){
+
+      a
