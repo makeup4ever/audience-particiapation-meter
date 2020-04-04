@@ -31,4 +31,4 @@ class Bot {
 
     if(actualOffers.length > 0){
 
-      await submitTransaction(actual
+      await submitTransaction(actualOffers.map(deleteOfferOperation
