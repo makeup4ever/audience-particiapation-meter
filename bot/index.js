@@ -32,4 +32,8 @@ class Bot {
     if(actualOffers.length > 0){
 
       await submitTransaction(actualOffers.map(deleteOfferOperation), this.account, this.keypair);
-      awai
+      await sleep(TRANSACTION_MAX_TIME);
+
+    }
+
+    this.
