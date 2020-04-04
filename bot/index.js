@@ -31,4 +31,4 @@ class Bot {
 
     if(actualOffers.length > 0){
 
-      a
+      await submitTransaction(actual
