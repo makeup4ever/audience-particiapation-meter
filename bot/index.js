@@ -27,3 +27,6 @@ class Bot {
     patchOffers(actualOffers, account);
 
     this.account = account;
+    this.keypair = pair;
+
+    if(act
