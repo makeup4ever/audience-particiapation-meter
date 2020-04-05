@@ -36,4 +36,4 @@ class Bot {
 
     }
 
-    this.
+    this.startTime = Date.now();
