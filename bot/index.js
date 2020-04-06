@@ -39,4 +39,6 @@ class Bot {
     this.startTime = Date.now();
     let running = true;
 
-    while(r
+    while(running){
+
+      running = await t
