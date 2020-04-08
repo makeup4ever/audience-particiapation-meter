@@ -41,4 +41,4 @@ class Bot {
 
     while(running){
 
-      running = await t
+      running = await this.makeOffers().catch(err =>
