@@ -41,4 +41,4 @@ class Bot {
 
     while(running){
 
-      running = await this.makeOffers().catch(err =>
+      running = await this.makeOffers().catch(err => log.error('makeOffers', err) )
