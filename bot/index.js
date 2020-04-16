@@ -42,4 +42,8 @@ class Bot {
     while(running){
 
       running = await this.makeOffers().catch(err => log.error('makeOffers', err) );
-      await sleep(BOT_CHECK_BALANCE_TIM
+      await sleep(BOT_CHECK_BALANCE_TIMER * 1000);
+
+    }
+
+    return tr
