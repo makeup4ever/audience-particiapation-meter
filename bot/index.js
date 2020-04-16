@@ -46,4 +46,10 @@ class Bot {
 
     }
 
-    return tr
+    return true;
+
+  }
+
+  async makeOffers(){
+
+    const
