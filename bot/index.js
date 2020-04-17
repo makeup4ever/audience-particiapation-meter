@@ -52,4 +52,4 @@ class Bot {
 
   async makeOffers(){
 
-    const
+    const newBotAccount = await se
