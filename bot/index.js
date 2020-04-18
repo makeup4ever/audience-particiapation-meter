@@ -55,4 +55,6 @@ class Bot {
     const newBotAccount = await server.loadAccount(this.keypair.accountId() );
     const actualOffers = await fetchOffers(newBotAccount);
 
-    patchO
+    patchOffers(actualOffers, newBotAccount);
+
+    log
