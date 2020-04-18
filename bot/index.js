@@ -57,4 +57,4 @@ class Bot {
 
     patchOffers(actualOffers, newBotAccount);
 
-    log
+    log.info('offer', `Offers:${actualOffers.le
