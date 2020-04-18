@@ -53,4 +53,6 @@ class Bot {
   async makeOffers(){
 
     const newBotAccount = await server.loadAccount(this.keypair.accountId() );
-    const actualOffers = await fe
+    const actualOffers = await fetchOffers(newBotAccount);
+
+    patchO
