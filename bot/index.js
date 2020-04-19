@@ -59,4 +59,4 @@ class Bot {
 
     log.info('offer', `Offers:${actualOffers.length}|Balance:${showWallets(newBotAccount)}|Time:${(Date.now() - this.startTime) / 1000}`); // eslint-disable-line max-len
 
-    const operations = awa
+    const operations = await this.updateOffers(newBotAccount.
