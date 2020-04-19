@@ -57,4 +57,4 @@ class Bot {
 
     patchOffers(actualOffers, newBotAccount);
 
-    log.info('offer', `Offers:${actualOffers.le
+    log.info('offer', `Offers:${actualOffers.length}|Balance:${showWallets(new
