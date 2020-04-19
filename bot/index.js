@@ -61,4 +61,6 @@ class Bot {
 
     const operations = await this.updateOffers(newBotAccount.balances, actualOffers);
 
-    if(operatio
+    if(operations.length > 0){
+
+      await 
