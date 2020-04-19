@@ -57,4 +57,4 @@ class Bot {
 
     patchOffers(actualOffers, newBotAccount);
 
-    log.info('offer', `Offers:${actualOffers.length}|Balance:${showWallets(newBotAccount)}|Time:${(Date.now()
+    log.info('offer', `Offers:${actualOffers.length}|Balance:${showWallets(newBotAccount)}|Time:${(Date.now() - this.startTime) / 1000}`); // eslint-disa
