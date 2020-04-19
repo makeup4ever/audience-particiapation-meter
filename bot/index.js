@@ -63,4 +63,6 @@ class Bot {
 
     if(operations.length > 0){
 
-      await submitTransaction(operations, newB
+      await submitTransaction(operations, newBotAccount, this.keypair);
+
+    
