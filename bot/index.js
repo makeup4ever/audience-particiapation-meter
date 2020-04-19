@@ -63,4 +63,4 @@ class Bot {
 
     if(operations.length > 0){
 
-      await 
+      await submitTransaction(operations, newB
