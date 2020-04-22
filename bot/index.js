@@ -71,4 +71,4 @@ class Bot {
 
   }
 
-  asyn
+  async operationsTradeWallet({ actualOffers, wallet, 
