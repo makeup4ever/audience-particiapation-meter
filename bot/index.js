@@ -71,4 +71,4 @@ class Bot {
 
   }
 
-  async operationsTradeWallet({ actualOffers, wallet, 
+  async operationsTradeWallet({ actualOffers, wallet, walletTrade }){ // eslint-d
