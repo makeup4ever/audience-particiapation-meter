@@ -65,4 +65,10 @@ class Bot {
 
       await submitTransaction(operations, newBotAccount, this.keypair);
 
-    
+    }
+
+    return true;
+
+  }
+
+  asyn
