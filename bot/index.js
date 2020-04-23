@@ -71,4 +71,4 @@ class Bot {
 
   }
 
-  async operationsTradeWallet({ actualOffers, wallet, walletTrade }){ // eslint-d
+  async operationsTradeWallet({ actualOffers, wallet, walletTrade }){ // eslint-disable-line max-statements, complex
