@@ -74,4 +74,4 @@ class Bot {
   async operationsTradeWallet({ actualOffers, wallet, walletTrade }){ // eslint-disable-line max-statements, complexity
 
     let operations = [];
-    const la
+    const lastOffers = filterOffers(actualOf
