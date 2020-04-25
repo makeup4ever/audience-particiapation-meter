@@ -75,4 +75,5 @@ class Bot {
 
     let operations = [];
     const lastOffers = filterOffers(actualOffers, wallet.asset, walletTrade.asset);
-    const bnActualBalanc
+    const bnActualBalance = new BigNumber(wallet.balance);
+    const price =
