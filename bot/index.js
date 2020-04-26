@@ -76,4 +76,6 @@ class Bot {
     let operations = [];
     const lastOffers = filterOffers(actualOffers, wallet.asset, walletTrade.asset);
     const bnActualBalance = new BigNumber(wallet.balance);
-    const price = await this.oracle.getPrice(wallet.as
+    const price = await this.oracle.getPrice(wallet.asset, walletTrade.asset);
+
+    if(bnA
