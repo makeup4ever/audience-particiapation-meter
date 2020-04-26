@@ -78,4 +78,4 @@ class Bot {
     const bnActualBalance = new BigNumber(wallet.balance);
     const price = await this.oracle.getPrice(wallet.asset, walletTrade.asset);
 
-    if(bnA
+    if(bnActualBalance.isZero() || !price || 
