@@ -80,4 +80,4 @@ class Bot {
 
     if(bnActualBalance.isZero() || !price || wallet.asset.isNative() ){
 
-  
+      return lastOffers.map(deleteOffe
