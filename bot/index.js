@@ -84,4 +84,4 @@ class Bot {
 
     }
 
-    const u
+    const updateAmount = await this.oracle.
