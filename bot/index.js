@@ -84,4 +84,5 @@ class Bot {
 
     }
 
-    const updateAmount = await this.oracle.
+    const updateAmount = await this.oracle.getAmount(wallet);
+    const
