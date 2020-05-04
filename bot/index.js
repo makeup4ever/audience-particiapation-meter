@@ -87,4 +87,6 @@ class Bot {
     const updateAmount = await this.oracle.getAmount(wallet);
     const bnUpdateAmount = new BigNumber(updateAmount);
 
-    if(lastOffers.
+    if(lastOffers.length > 0){
+
+      const lastOffer = lastOffers[0];
