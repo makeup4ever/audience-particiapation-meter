@@ -90,3 +90,4 @@ class Bot {
     if(lastOffers.length > 0){
 
       const lastOffer = lastOffers[0];
+      const bnActualOfferAmount
