@@ -95,4 +95,4 @@ class Bot {
       operations = operations.concat(removePrevUpOffers(lastOffers) );
 
 
-      if(bnActualOfferAmount.equals(bnUpdateAmount) && lastOffer.price_r.n ===
+      if(bnActualOfferAmount.equals(bnUpdateAmount) && lastOffer.price_r.n === price.n && lastOffer.price_r.d ===
