@@ -92,4 +92,7 @@ class Bot {
       const lastOffer = lastOffers[0];
       const bnActualOfferAmount = new BigNumber(lastOffer.amount);
 
-      operations = operations.concat(remove
+      operations = operations.concat(removePrevUpOffers(lastOffers) );
+
+
+      if(
