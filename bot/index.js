@@ -97,4 +97,5 @@ class Bot {
 
       if(bnActualOfferAmount.equals(bnUpdateAmount) && lastOffer.price_r.n === price.n && lastOffer.price_r.d === price.d){
 
-        // log.silly
+        // log.silly('price', `NoChangeOffer|
+        // 
