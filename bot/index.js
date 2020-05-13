@@ -99,4 +99,5 @@ class Bot {
 
         // log.silly('price', `NoChangeOffer|
         // Selling:${assetUid(wallet.asset)}|
-        // Buying:${assetUid(last
+        // Buying:${assetUid(lastOffer.buying.asset)}|
+       
