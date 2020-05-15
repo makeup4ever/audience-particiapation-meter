@@ -104,4 +104,4 @@ class Bot {
 
       } else{
 
-      
+        log.info('price', `UpdateOffer|Selli
