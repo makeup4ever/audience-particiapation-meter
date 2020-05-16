@@ -104,4 +104,4 @@ class Bot {
 
       } else{
 
-        log.info('price', `UpdateOffer|Selling:${assetUid(wallet.asset
+        log.info('price', `UpdateOffer|Selling:${assetUid(wallet.asset)}|Buying:${assetUid(lastOffer.buying.a
