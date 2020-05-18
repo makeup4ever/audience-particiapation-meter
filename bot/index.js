@@ -104,4 +104,6 @@ class Bot {
 
       } else{
 
-        log.info('price', `UpdateOffer|Selling:${assetUid(wallet.asset)}|Buying:${assetUid(lastOffer.buying.asset)}|Price:${price.n}/${price.d}|Balance:${wallet.balance}|Amount:${updateAmount}`); // eslint-disable-lin
+        log.info('price', `UpdateOffer|Selling:${assetUid(wallet.asset)}|Buying:${assetUid(lastOffer.buying.asset)}|Price:${price.n}/${price.d}|Balance:${wallet.balance}|Amount:${updateAmount}`); // eslint-disable-line max-len
+
+        operations.push(Stellar.Operation
