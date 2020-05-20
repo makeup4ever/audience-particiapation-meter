@@ -107,4 +107,5 @@ class Bot {
         log.info('price', `UpdateOffer|Selling:${assetUid(wallet.asset)}|Buying:${assetUid(lastOffer.buying.asset)}|Price:${price.n}/${price.d}|Balance:${wallet.balance}|Amount:${updateAmount}`); // eslint-disable-line max-len
 
         operations.push(Stellar.Operation.manageOffer({
-          selling: wal
+          selling: wallet.asset,
+          buying: wallet
