@@ -108,4 +108,5 @@ class Bot {
 
         operations.push(Stellar.Operation.manageOffer({
           selling: wallet.asset,
-          buying: wallet
+          buying: walletTrade.asset,
+          amount: 
