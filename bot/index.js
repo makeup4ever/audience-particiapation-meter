@@ -110,4 +110,5 @@ class Bot {
           selling: wallet.asset,
           buying: walletTrade.asset,
           amount: updateAmount,
-          price: pr
+          price: price,
+          offerId: lastO
