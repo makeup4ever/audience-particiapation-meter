@@ -114,4 +114,8 @@ class Bot {
           offerId: lastOffer.id
         }) );
 
- 
+      }
+
+    } else{
+
+      log.info('price
