@@ -118,4 +118,4 @@ class Bot {
 
     } else{
 
-      log.info('price
+      log.info('price', `NewOffer|Selling:${assetU
