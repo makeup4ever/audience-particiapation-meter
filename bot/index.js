@@ -118,4 +118,4 @@ class Bot {
 
     } else{
 
-      log.info('price', `NewOffer|Selling:${assetUid(wallet.asset)}|Buying:${assetUid(walletTrade.asset)}|Pr
+      log.info('price', `NewOffer|Selling:${assetUid(wallet.asset)}|Buying:${assetUid(walletTrade.asset)}|Price:${price.n}/${price.d}|
