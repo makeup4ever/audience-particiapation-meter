@@ -120,4 +120,6 @@ class Bot {
 
       log.info('price', `NewOffer|Selling:${assetUid(wallet.asset)}|Buying:${assetUid(walletTrade.asset)}|Price:${price.n}/${price.d}|Balance:${wallet.balance}|UpdateAmount:${bnUpdateAmount.toString()}`); // eslint-disable-line max-len
 
-      operations.push(Stellar.Operation.createPassiveOffer
+      operations.push(Stellar.Operation.createPassiveOffer({
+        selling: wallet.asset,
+       
