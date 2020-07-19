@@ -122,4 +122,5 @@ class Bot {
 
       operations.push(Stellar.Operation.createPassiveOffer({
         selling: wallet.asset,
-       
+        buying: walletTrade.asset,
+        amount: upd
