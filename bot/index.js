@@ -125,4 +125,9 @@ class Bot {
         buying: walletTrade.asset,
         amount: updateAmount,
         price: price,
-    
+        offerId: 0
+      }) );
+
+    }
+
+ 
