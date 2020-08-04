@@ -130,4 +130,8 @@ class Bot {
 
     }
 
- 
+    return operations;
+
+  }
+
+  a
