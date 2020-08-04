@@ -134,4 +134,6 @@ class Bot {
 
   }
 
-  a
+  async updateOffers(wallets, actualOffers){
+
+    if
