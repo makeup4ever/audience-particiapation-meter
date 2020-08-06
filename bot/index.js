@@ -136,4 +136,6 @@ class Bot {
 
   async updateOffers(wallets, actualOffers){
 
-    if
+    if(wallets.length === 0){
+
+      log.inf
