@@ -138,4 +138,4 @@ class Bot {
 
     if(wallets.length === 0){
 
-      log.inf
+      log.info('updateOffers', `No wallets|DeleteAct
