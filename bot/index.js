@@ -140,4 +140,4 @@ class Bot {
 
       log.info('updateOffers', `No wallets|DeleteActualOffers:${actualOffers.length}`);
 
-     
+      return actualOffers.map(deleteOfferOp
