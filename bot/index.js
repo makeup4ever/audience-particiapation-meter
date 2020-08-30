@@ -144,4 +144,4 @@ class Bot {
 
     }
 
-    const op
+    const operationPromises = wallets.reduce( (accWallet, 
