@@ -146,4 +146,4 @@ class Bot {
 
     const operationPromises = wallets.reduce( (accWallet, wallet) => {
 
-      const walle
+      const walletsTrade = wallets.filte
