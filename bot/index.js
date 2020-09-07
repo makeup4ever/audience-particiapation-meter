@@ -146,4 +146,5 @@ class Bot {
 
     const operationPromises = wallets.reduce( (accWallet, wallet) => {
 
-      const walletsTrade = wallets.filter(otherWallet => otherWallet !== wall
+      const walletsTrade = wallets.filter(otherWallet => otherWallet !== wallet);
+      const updateOrCreateO
