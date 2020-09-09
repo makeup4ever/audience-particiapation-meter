@@ -147,4 +147,5 @@ class Bot {
     const operationPromises = wallets.reduce( (accWallet, wallet) => {
 
       const walletsTrade = wallets.filter(otherWallet => otherWallet !== wallet);
-      const updateOrCreateOps = walletsTrade.reduce( (accWalletTrade, walletTrade) => accWalletTrade.concat(this.operationsTradeWa
+      const updateOrCreateOps = walletsTrade.reduce( (accWalletTrade, walletTrade) => accWalletTrade.concat(this.operationsTradeWallet({
+        actualOffers,
