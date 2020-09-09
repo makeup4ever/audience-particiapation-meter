@@ -151,4 +151,6 @@ class Bot {
         actualOffers,
         wallet,
         walletTrade
-     
+      }) ), []);
+
+      return
