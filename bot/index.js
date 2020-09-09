@@ -155,4 +155,6 @@ class Bot {
 
       return accWallet.concat(...updateOrCreateOps);
 
-    
+    }, []);
+
+    const nestedArray = 
