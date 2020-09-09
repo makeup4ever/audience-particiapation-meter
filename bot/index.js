@@ -157,4 +157,4 @@ class Bot {
 
     }, []);
 
-    const nestedArray = 
+    const nestedArray = await Promise.all(operationPromises
