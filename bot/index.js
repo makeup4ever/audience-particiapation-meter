@@ -153,4 +153,6 @@ class Bot {
         walletTrade
       }) ), []);
 
-      return
+      return accWallet.concat(...updateOrCreateOps);
+
+    
