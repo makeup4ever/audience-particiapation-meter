@@ -161,4 +161,7 @@ class Bot {
 
     // flatten array
 
-    return 
+    return [].concat(...nestedArray);
+
+  }
+}
