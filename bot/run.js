@@ -1,4 +1,5 @@
 require('./../config/globalConfig');
 
 const Oracle = require('../oracles/simple2');
-const 
+const Bot = require('./');
+const data
