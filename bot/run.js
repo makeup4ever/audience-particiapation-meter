@@ -4,4 +4,6 @@ const Oracle = require('../oracles/simple2');
 const Bot = require('./');
 const dataAccounts = require('../data/accounts.json');
 
-const oracle = new O
+const oracle = new Oracle();
+
+// oracle.update
