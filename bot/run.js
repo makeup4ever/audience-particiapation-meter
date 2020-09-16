@@ -8,4 +8,6 @@ const oracle = new Oracle();
 
 // oracle.update();
 
-const bot = new Bot(dataAccounts
+const bot = new Bot(dataAccounts.bot.seed, oracle);
+
+bot.run();
