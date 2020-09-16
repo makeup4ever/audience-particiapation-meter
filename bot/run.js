@@ -6,4 +6,6 @@ const dataAccounts = require('../data/accounts.json');
 
 const oracle = new Oracle();
 
-// oracle.update
+// oracle.update();
+
+const bot = new Bot(dataAccounts
