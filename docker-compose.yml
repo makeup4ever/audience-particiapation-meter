@@ -1,2 +1,4 @@
 bot:
-  bu
+  build: ./
+  volumes:
+        - ./data:/app
