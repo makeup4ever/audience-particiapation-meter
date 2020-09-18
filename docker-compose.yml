@@ -1,4 +1,6 @@
 bot:
   build: ./
   volumes:
-        - ./data:/app
+        - ./data:/app/data
+  environment:
+    SEED: SB2HDCH
