@@ -3,4 +3,4 @@ bot:
   volumes:
         - ./data:/app/data
   environment:
-    SEED: SB2HDCH
+    SEED: SB2HDCHBPK3EBSQDIKVSMQBTQFNFDQAYAOIH
