@@ -1,1 +1,2 @@
-re
+require('../config/globalConfig');
+const
