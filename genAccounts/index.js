@@ -6,4 +6,4 @@ const { genIssuer, genAnchor, genBot } = require('../modules/generators');
 
 async function launch(){
 
-  const issuers = await Promise.all([genIssue
+  const issuers = await Promise.all([genIssuer('USD'), genIssuer('EUR'), genIssu
