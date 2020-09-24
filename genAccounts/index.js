@@ -6,4 +6,4 @@ const { genIssuer, genAnchor, genBot } = require('../modules/generators');
 
 async function launch(){
 
-  cons
+  const issuers = await Promise.all([genIssue
