@@ -8,4 +8,7 @@ async function launch(){
 
   const issuers = await Promise.all([genIssuer('USD'), genIssuer('EUR'), genIssuer('JPY')]);
   const anchors = await Promise.all(issuers.map(issuer => genAnchor(issuer) ) );
-  const bot = await genBot(a
+  const bot = await genBot(anchors);
+
+  const data = {
+  
