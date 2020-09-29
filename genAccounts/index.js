@@ -11,4 +11,6 @@ async function launch(){
   const bot = await genBot(anchors);
 
   const data = {
-    issuers: issuers.map( (issuer, i) =
+    issuers: issuers.map( (issuer, i) => ({
+      issuer: {
+        accountI
