@@ -13,4 +13,5 @@ async function launch(){
   const data = {
     issuers: issuers.map( (issuer, i) => ({
       issuer: {
-        accountI
+        accountId: issuer.pair.accountId(),
+        seed:
