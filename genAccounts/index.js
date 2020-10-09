@@ -14,4 +14,6 @@ async function launch(){
     issuers: issuers.map( (issuer, i) => ({
       issuer: {
         accountId: issuer.pair.accountId(),
-        seed:
+        seed: issuer.pair.seed()
+      },
+      as
