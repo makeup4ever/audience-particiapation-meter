@@ -18,3 +18,4 @@ async function launch(){
       },
       asset: issuer.asset.code,
       anchor: {
+        accountId: anchors[i].pair.accou
