@@ -18,4 +18,5 @@ async function launch(){
       },
       asset: issuer.asset.code,
       anchor: {
-        accountId: anchors[i].pair.accou
+        accountId: anchors[i].pair.accountId(),
+        seed: anchors[i].pair.
