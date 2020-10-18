@@ -23,4 +23,4 @@ async function launch(){
       }
     }) ),
     bot: {
-      ac
+      accountId: bot.pair.accountId(),
