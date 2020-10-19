@@ -28,4 +28,10 @@ async function launch(){
     }
   };
 
-  jsonFile.writeFileSync('../data/accounts.json', data, { spaces: 2 }
+  jsonFile.writeFileSync('../data/accounts.json', data, { spaces: 2 });
+
+}
+
+launch().then( () => {
+
+  log
