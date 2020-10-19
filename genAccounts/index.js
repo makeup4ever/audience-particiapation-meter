@@ -24,3 +24,5 @@ async function launch(){
     }) ),
     bot: {
       accountId: bot.pair.accountId(),
+      seed: bot.pair.seed()
+  
