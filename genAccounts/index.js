@@ -36,4 +36,4 @@ launch().then( () => {
 
   log.info('createAccount', 'Accounts success');
 
-}).catch(err => log.
+}).catch(err => log.info('launch', err) );
