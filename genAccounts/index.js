@@ -34,4 +34,6 @@ async function launch(){
 
 launch().then( () => {
 
-  log.info('createAccount', 'Acc
+  log.info('createAccount', 'Accounts success');
+
+}).catch(err => log.
