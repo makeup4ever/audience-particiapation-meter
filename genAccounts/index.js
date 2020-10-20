@@ -34,4 +34,4 @@ async function launch(){
 
 launch().then( () => {
 
-  log
+  log.info('createAccount', 'Acc
