@@ -22,3 +22,39 @@ async function generatePair(){
   // log.info('generatePair', `Success|accountId:${pair.accountId()}`);
 
   return pair;
+
+}
+
+async function genIssuer(assetCode){
+
+  const pair = await generatePair();
+  const account = await loadAccount(pair.accountId() );
+  const asset = new Stellar.Asset(assetCode, pair.accountId() );
+
+  log.info('genIssuer', `issuerAccount:${pair.accountId()}|asset:${assetCode}`);
+
+  return {
+    pair,
+    account,
+    asset
+  };
+
+}
+
+async function genAnchor(issuer){
+
+  const pair = await generatePair();
+  const account = await loadAccount(pair.accountId() );
+
+  log.info('genAnchor', `AnchorAccount:${pair.accountId()}|balance:${showWallets(account)}`);
+
+  await trustAssets(account, pair, [issuer.asset]);
+  await payment(issuer.account, issuer.pair, pair, '100000', issuer.asset);
+
+  const refreshAccount = await loadAccount(pair.accountId() );
+
+  log.info('genAnchor', `RefreshAnchorAccount:${pair.accountId()}|balance:${showWallets(refreshAccount)}`);
+
+  return {
+    pair,
+    account,
