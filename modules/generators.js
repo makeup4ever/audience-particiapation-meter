@@ -58,3 +58,38 @@ async function genAnchor(issuer){
   return {
     pair,
     account,
+    asset: issuer.asset
+  };
+
+}
+
+async function genBot(anchors){
+
+  const pair = await generatePair();
+  const account = await loadAccount(pair.accountId() );
+
+  log.info('genBotAccount', `BotAccount:${pair.accountId()}|balance:${showWallets(account)}`);
+
+  await trustAssets(account, pair, anchors.map(anchor => anchor.asset) );
+
+  // payment(anchors[0].account, anchors[0].pair, pair, '1000', anchors[0].asset);
+
+  await Promise.all(anchors.map(anchor => payment(anchor.account, anchor.pair, pair, '1000', anchor.asset) ) );
+
+  const refreshAccount = await loadAccount(pair.accountId() );
+
+  log.info('genBotAccount', `RefreshBotAccount:${pair.accountId()}|balance:${showWallets(refreshAccount)}`);
+
+  return {
+    pair,
+    account
+  };
+
+}
+
+module.exports = {
+  generatePair,
+  genIssuer,
+  genAnchor,
+  genBot
+};
