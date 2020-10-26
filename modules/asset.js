@@ -57,3 +57,12 @@ async function trustAssets(trusterAccount, trusterPair, assets){
   const transactionRes = await server.submitTransaction(transaction);
 
   log.info('trustAssets', `Url:${getTransactionUrl(transactionRes)}`); // eslint-disable-line no-underscore-dangle
+
+}
+
+
+module.exports = {
+  assetInstance,
+  assetUid,
+  trustAssets
+};
