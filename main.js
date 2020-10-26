@@ -1,2 +1,4 @@
 const Bot = require('./bot');
-const Ora
+const Oracle = require('./oracles');
+
+module.exp
