@@ -6,4 +6,4 @@ const { assetInstance, assetUid } = require('../modules/asset');
 
 function deleteOfferOperation(offer){
 
-  log.info('offer', 
+  log.info('offer', `Delete|assetSelling:${assetUid(offer.
