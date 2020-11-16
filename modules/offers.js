@@ -6,4 +6,4 @@ const { assetInstance, assetUid } = require('../modules/asset');
 
 function deleteOfferOperation(offer){
 
-  log.info('offer', `Delete|assetSelling:${assetUid(offer.selling.asset)}|assetBuying:${assetUid(offer.buying.asset)}|Las
+  log.info('offer', `Delete|assetSelling:${assetUid(offer.selling.asset)}|assetBuying:${assetUid(offer.buying.asset)}|LastAmount:${offer.amount}`); // eslint-disable-
