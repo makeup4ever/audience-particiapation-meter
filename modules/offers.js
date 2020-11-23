@@ -10,4 +10,6 @@ function deleteOfferOperation(offer){
 
   return Stellar.Operation.manageOffer({
     selling: offer.selling.asset,
-    buying: offer.buyi
+    buying: offer.buying.asset,
+    amount: '0',
+    pri
