@@ -12,4 +12,6 @@ function deleteOfferOperation(offer){
     selling: offer.selling.asset,
     buying: offer.buying.asset,
     amount: '0',
-    pri
+    price: '1',
+    offerId: offer.id
+  
