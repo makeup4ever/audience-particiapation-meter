@@ -9,4 +9,5 @@ function deleteOfferOperation(offer){
   log.info('offer', `Delete|assetSelling:${assetUid(offer.selling.asset)}|assetBuying:${assetUid(offer.buying.asset)}|LastAmount:${offer.amount}`); // eslint-disable-line max-len
 
   return Stellar.Operation.manageOffer({
-    selling: offer.sellin
+    selling: offer.selling.asset,
+    buying: offer.buyi
