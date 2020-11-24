@@ -14,4 +14,8 @@ function deleteOfferOperation(offer){
     amount: '0',
     price: '1',
     offerId: offer.id
-  
+  });
+
+}
+
+function removePrevUpOffers(p
