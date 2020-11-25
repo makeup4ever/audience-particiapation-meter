@@ -18,4 +18,6 @@ function deleteOfferOperation(offer){
 
 }
 
-function removePrevUpOffers(p
+function removePrevUpOffers(prevSameOffers){
+
+  if(prevSameOffers
