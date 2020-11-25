@@ -20,4 +20,6 @@ function deleteOfferOperation(offer){
 
 function removePrevUpOffers(prevSameOffers){
 
-  if(prevSameOffers
+  if(prevSameOffers.length > 1){
+
+    const lastOffersCur
