@@ -22,4 +22,6 @@ function removePrevUpOffers(prevSameOffers){
 
   if(prevSameOffers.length > 1){
 
-    const lastOffersCurrentToRemove = [...prevSameOffers].
+    const lastOffersCurrentToRemove = [...prevSameOffers].splice(1, prevSameOffers.length);
+
+    r
