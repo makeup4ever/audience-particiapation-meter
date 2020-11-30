@@ -24,4 +24,4 @@ function removePrevUpOffers(prevSameOffers){
 
     const lastOffersCurrentToRemove = [...prevSameOffers].splice(1, prevSameOffers.length);
 
-    return lastOffersCurrentToRemove.map(lastO
+    return lastOffersCurrentToRemove.map(lastOfferCurrentToRemove => deleteOfferOperat
