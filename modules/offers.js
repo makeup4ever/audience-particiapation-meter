@@ -28,3 +28,9 @@ function removePrevUpOffers(prevSameOffers){
 
   }
 
+  return [];
+
+}
+
+
+function patc
