@@ -33,4 +33,6 @@ function removePrevUpOffers(prevSameOffers){
 }
 
 
-function patchOffers(actualOffers, newAccoun
+function patchOffers(actualOffers, newAccount){
+
+  actualOffers.forEach( (actua
