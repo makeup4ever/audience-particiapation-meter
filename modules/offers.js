@@ -33,4 +33,4 @@ function removePrevUpOffers(prevSameOffers){
 }
 
 
-function patc
+function patchOffers(actualOffers, newAccoun
