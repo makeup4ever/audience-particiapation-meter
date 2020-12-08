@@ -35,4 +35,6 @@ function removePrevUpOffers(prevSameOffers){
 
 function patchOffers(actualOffers, newAccount){
 
-  actualOffers.forEach( (actua
+  actualOffers.forEach( (actualOffer) => {
+
+    actualOffer.buying.a
