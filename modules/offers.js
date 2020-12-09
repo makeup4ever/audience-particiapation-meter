@@ -37,4 +37,4 @@ function patchOffers(actualOffers, newAccount){
 
   actualOffers.forEach( (actualOffer) => {
 
-    actualOffer.buying.a
+    actualOffer.buying.asset = assetInstance(actualOffer.bu
