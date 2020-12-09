@@ -44,4 +44,10 @@ function patchOffers(actualOffers, newAccount){
 
   newAccount.balances.forEach( (balance) => {
 
-    balance.asset = assetInstance(ba
+    balance.asset = assetInstance(balance);
+
+  });
+
+}
+
+async function 
