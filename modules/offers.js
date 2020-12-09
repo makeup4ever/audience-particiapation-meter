@@ -38,4 +38,8 @@ function patchOffers(actualOffers, newAccount){
   actualOffers.forEach( (actualOffer) => {
 
     actualOffer.buying.asset = assetInstance(actualOffer.buying);
-    actualOffer.selling.asset = assetInstance(actualOffer
+    actualOffer.selling.asset = assetInstance(actualOffer.selling);
+
+  });
+
+  newAccount.b
