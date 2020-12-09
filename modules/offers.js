@@ -42,4 +42,5 @@ function patchOffers(actualOffers, newAccount){
 
   });
 
-  newAccount.b
+  newAccount.balances.forEach( (balance) => {
+
