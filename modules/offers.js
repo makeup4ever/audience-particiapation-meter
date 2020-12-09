@@ -50,4 +50,6 @@ function patchOffers(actualOffers, newAccount){
 
 }
 
-async function 
+async function fetchOffers(account){
+
+  const resOffers 
