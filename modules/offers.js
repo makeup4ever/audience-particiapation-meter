@@ -52,4 +52,4 @@ function patchOffers(actualOffers, newAccount){
 
 async function fetchOffers(account){
 
-  const resOffers 
+  const resOffers = await server.offers('accounts', account.id).
