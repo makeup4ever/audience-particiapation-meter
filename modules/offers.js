@@ -54,4 +54,4 @@ async function fetchOffers(account){
 
   const resOffers = await server.offers('accounts', account.id).order('asc').call();
 
-  return Arr
+  return Array.isArray(resOffers.record
