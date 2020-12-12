@@ -52,4 +52,6 @@ function patchOffers(actualOffers, newAccount){
 
 async function fetchOffers(account){
 
-  const resOffers = await server.offers('accounts', account.id).
+  const resOffers = await server.offers('accounts', account.id).order('asc').call();
+
+  return Arr
