@@ -60,4 +60,4 @@ async function fetchOffers(account){
 
 function filterOffers(offers, assetSelling, assetBuying){
 
-  return offers.filter(
+  return offers.filter(offer => assetSelling.equals(offer.selli
