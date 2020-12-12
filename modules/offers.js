@@ -58,4 +58,6 @@ async function fetchOffers(account){
 
 }
 
-function filterOffers(offers, assetSelling,
+function filterOffers(offers, assetSelling, assetBuying){
+
+  return offers.filter(
