@@ -58,4 +58,4 @@ async function fetchOffers(account){
 
 }
 
-function
+function filterOffers(offers, assetSelling,
