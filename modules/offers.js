@@ -65,4 +65,6 @@ function filterOffers(offers, assetSelling, assetBuying){
 }
 
 module.exports = {
-  removePrevU
+  removePrevUpOffers,
+  patchOffers,
+  fetchOffer
