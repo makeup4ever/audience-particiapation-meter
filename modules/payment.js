@@ -25,3 +25,5 @@ module.exports = async function payment(sellerAccount, sellerPair, buyPair, amou
     .catch(err => log.error('submitTransaction', err.extras) );
 
   return true;
+
+};
