@@ -69,4 +69,5 @@ module.exports = {
   patchOffers,
   fetchOffers,
   filterOffers,
-  deleteOfferO
+  deleteOfferOperation
+};
