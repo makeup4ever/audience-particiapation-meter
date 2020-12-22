@@ -5,4 +5,8 @@ const server = new Stellar.Server(HORIZON_ENDPOINT, SERVER_CONFIG);
 
 function bulkOperations(transactionBuilder, operations){
 
-  operations.forEach(operation => transactionBuilder.addOperation(o
+  operations.forEach(operation => transactionBuilder.addOperation(operation) );
+
+}
+
+function getTr
