@@ -9,4 +9,6 @@ function bulkOperations(transactionBuilder, operations){
 
 }
 
-function getTr
+function getTransactionUrl(transactionRes){
+
+ 
