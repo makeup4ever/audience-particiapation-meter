@@ -11,4 +11,4 @@ function bulkOperations(transactionBuilder, operations){
 
 function getTransactionUrl(transactionRes){
 
- 
+  return transactionRes._links.trans
