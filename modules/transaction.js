@@ -11,4 +11,8 @@ function bulkOperations(transactionBuilder, operations){
 
 function getTransactionUrl(transactionRes){
 
-  return transactionRes._links.transaction.href; // eslint-disable-li
+  return transactionRes._links.transaction.href; // eslint-disable-line no-underscore-dangle
+
+}
+
+async f
