@@ -15,4 +15,4 @@ function getTransactionUrl(transactionRes){
 
 }
 
-async f
+async function submitTransaction(operations,
