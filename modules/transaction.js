@@ -27,4 +27,6 @@ async function submitTransaction(operations, account, pair){
 
   log.info('transaction', `SendOperations:${operations.length}|AccountId:${account.id}`);
 
-  const transactionBuilder = new Stellar.Transa
+  const transactionBuilder = new Stellar.TransactionBuilder(account);
+
+  bulkOp
