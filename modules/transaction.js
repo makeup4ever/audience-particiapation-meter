@@ -25,4 +25,4 @@ async function submitTransaction(operations, account, pair){
 
   }
 
-  log.info('transaction', `SendOper
+  log.info('transaction', `SendOperations:${operations.length}|Accou
