@@ -19,4 +19,4 @@ async function submitTransaction(operations, account, pair){
 
   if(operations.length === 0){
 
-    
+    log.info('submitTransaction', 'No operatio
