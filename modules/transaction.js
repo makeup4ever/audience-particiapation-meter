@@ -24,3 +24,5 @@ async function submitTransaction(operations, account, pair){
     return false;
 
   }
+
+  log.info('transaction', `SendOper
