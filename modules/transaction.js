@@ -17,4 +17,6 @@ function getTransactionUrl(transactionRes){
 
 async function submitTransaction(operations, account, pair){
 
-  if(opera
+  if(operations.length === 0){
+
+    
