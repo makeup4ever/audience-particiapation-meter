@@ -25,4 +25,6 @@ async function submitTransaction(operations, account, pair){
 
   }
 
-  log.info('transaction', `SendOperations:${operations.length}|Accou
+  log.info('transaction', `SendOperations:${operations.length}|AccountId:${account.id}`);
+
+  const tr
