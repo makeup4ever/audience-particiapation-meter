@@ -29,4 +29,5 @@ async function submitTransaction(operations, account, pair){
 
   const transactionBuilder = new Stellar.TransactionBuilder(account);
 
-  bulkOp
+  bulkOperations(transactionBuilder, operations);
+
