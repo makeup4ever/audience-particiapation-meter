@@ -31,3 +31,4 @@ async function submitTransaction(operations, account, pair){
 
   bulkOperations(transactionBuilder, operations);
 
+  const transaction = transact
