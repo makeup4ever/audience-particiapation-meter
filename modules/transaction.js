@@ -33,4 +33,6 @@ async function submitTransaction(operations, account, pair){
 
   const transaction = transactionBuilder.build();
 
-  transaction.
+  transaction.sign(pair);
+
+  await server.submitTran
