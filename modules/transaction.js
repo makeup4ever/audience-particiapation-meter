@@ -35,4 +35,5 @@ async function submitTransaction(operations, account, pair){
 
   transaction.sign(pair);
 
-  await server.submitTran
+  await server.submitTransaction(transaction)
+    .then(tra
