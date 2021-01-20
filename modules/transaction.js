@@ -36,4 +36,4 @@ async function submitTransaction(operations, account, pair){
   transaction.sign(pair);
 
   await server.submitTransaction(transaction)
-    .then(tra
+    .then(transactionRes => log.info('transaction', `U
