@@ -45,4 +45,6 @@ async function submitTransaction(operations, account, pair){
 
 async function submitTransactionSeries(operations, account, pair){
 
-  if(operations.le
+  if(operations.length === 0){
+
+    log.info('
