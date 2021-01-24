@@ -43,4 +43,6 @@ async function submitTransaction(operations, account, pair){
 
 }
 
-async function submitTransactionSeries(operations, a
+async function submitTransactionSeries(operations, account, pair){
+
+  if(operations.le
