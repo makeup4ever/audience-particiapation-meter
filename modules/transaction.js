@@ -43,4 +43,4 @@ async function submitTransaction(operations, account, pair){
 
 }
 
-async functio
+async function submitTransactionSeries(operations, a
