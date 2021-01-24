@@ -47,4 +47,6 @@ async function submitTransactionSeries(operations, account, pair){
 
   if(operations.length === 0){
 
-    log.info('
+    log.info('transactionSeries', 'No operations');
+
+ 
