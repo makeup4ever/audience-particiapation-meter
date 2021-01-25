@@ -49,4 +49,8 @@ async function submitTransactionSeries(operations, account, pair){
 
     log.info('transactionSeries', 'No operations');
 
- 
+    return false;
+
+  }
+
+  log.i
