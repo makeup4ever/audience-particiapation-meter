@@ -53,4 +53,4 @@ async function submitTransactionSeries(operations, account, pair){
 
   }
 
-  log.i
+  log.info('transaction', `SendOperation
