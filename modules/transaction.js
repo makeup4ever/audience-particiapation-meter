@@ -55,4 +55,5 @@ async function submitTransactionSeries(operations, account, pair){
 
   log.info('transaction', `SendOperations:${operations.length}|AccountId:${account.id}`);
 
-  let sequenceNumber = acc
+  let sequenceNumber = account.sequence;
+  let transAccount = 
