@@ -53,4 +53,4 @@ async function submitTransactionSeries(operations, account, pair){
 
   }
 
-  log.info('transaction', `SendOperation
+  log.info('transaction', `SendOperations:${operations.length}|AccountId:${a
