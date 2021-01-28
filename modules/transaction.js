@@ -56,4 +56,8 @@ async function submitTransactionSeries(operations, account, pair){
   log.info('transaction', `SendOperations:${operations.length}|AccountId:${account.id}`);
 
   let sequenceNumber = account.sequence;
-  let transAccount = new Stellar.Account(pair.accountId(
+  let transAccount = new Stellar.Account(pair.accountId(), sequenceNumber);
+
+  while(operations.length > 0){
+
+ 
