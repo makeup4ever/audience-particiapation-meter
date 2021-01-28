@@ -60,4 +60,4 @@ async function submitTransactionSeries(operations, account, pair){
 
   while(operations.length > 0){
 
- 
+    sequenceNumber = transAccount.sequenc
