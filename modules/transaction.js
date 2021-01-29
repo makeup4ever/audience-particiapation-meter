@@ -60,4 +60,5 @@ async function submitTransactionSeries(operations, account, pair){
 
   while(operations.length > 0){
 
-    sequenceNumber = transAccount.sequenc
+    sequenceNumber = transAccount.sequence.toString();
+    transAccount = new Stellar
