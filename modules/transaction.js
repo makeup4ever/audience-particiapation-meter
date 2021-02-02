@@ -63,4 +63,5 @@ async function submitTransactionSeries(operations, account, pair){
     sequenceNumber = transAccount.sequence.toString();
     transAccount = new Stellar.Account(pair.accountId(), sequenceNumber);
 
-    const transactionBuilder = new Stellar.TransactionBuilder(transAc
+    const transactionBuilder = new Stellar.TransactionBuilder(transAccount);
+    const transaction = transact
