@@ -66,4 +66,6 @@ async function submitTransactionSeries(operations, account, pair){
     const transactionBuilder = new Stellar.TransactionBuilder(transAccount);
     const transaction = transactionBuilder.addOperation(operations.pop() ).build();
 
-    transaction.
+    transaction.sign(pair);
+
+    await server.s
