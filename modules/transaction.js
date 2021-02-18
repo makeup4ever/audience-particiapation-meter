@@ -68,4 +68,5 @@ async function submitTransactionSeries(operations, account, pair){
 
     transaction.sign(pair);
 
-    await server.s
+    await server.submitTransaction(transaction)
+    
