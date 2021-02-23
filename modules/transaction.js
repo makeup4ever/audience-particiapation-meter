@@ -70,4 +70,8 @@ async function submitTransactionSeries(operations, account, pair){
 
     await server.submitTransaction(transaction)
       .then(transactionRes => log.info('transactionSeries', `Url:${getTransactionUrl(transactionRes)}`) )
-      .catch(err => log.error('submitTransactionSeries'
+      .catch(err => log.error('submitTransactionSeries', err.extras) );
+
+  }
+
+  return true;
