@@ -75,3 +75,8 @@ async function submitTransactionSeries(operations, account, pair){
   }
 
   return true;
+
+}
+
+module.exports = {
+  bulkOp
