@@ -79,4 +79,6 @@ async function submitTransactionSeries(operations, account, pair){
 }
 
 module.exports = {
-  bulkOp
+  bulkOperations,
+  getTransactionUrl,
+  submi
