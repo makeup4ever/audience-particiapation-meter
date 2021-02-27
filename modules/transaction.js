@@ -82,4 +82,5 @@ module.exports = {
   bulkOperations,
   getTransactionUrl,
   submitTransaction,
-  submitTransaction
+  submitTransactionSeries
+};
