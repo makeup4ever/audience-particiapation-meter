@@ -1,1 +1,2 @@
-const log = requi
+const log = require('npmlog');
+const BigNumber = require
