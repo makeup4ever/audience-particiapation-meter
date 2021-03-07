@@ -4,4 +4,4 @@ const { assetUid } = require('../modules/asset');
 
 function showWallets(account){
 
-  return account.bal
+  return account.balances.map(wallet => `${assetUid(w
