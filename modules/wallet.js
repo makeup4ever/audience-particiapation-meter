@@ -7,3 +7,5 @@ function showWallets(account){
   return account.balances.map(wallet => `${assetUid(wallet.asset)}|Balance:${wallet.balance}`); // eslint-disable-line no-confusing-arrow, max-len
 
 }
+
+function getUpWallets(wallets){
