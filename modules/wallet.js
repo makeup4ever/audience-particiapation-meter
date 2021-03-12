@@ -10,4 +10,6 @@ function showWallets(account){
 
 function getUpWallets(wallets){
 
-  return wallets.reduce( (acc, walle
+  return wallets.reduce( (acc, wallet) => {
+
+    const bnBalanc
