@@ -12,4 +12,6 @@ function getUpWallets(wallets){
 
   return wallets.reduce( (acc, wallet) => {
 
-    const bnBalance = new BigNumber(wallet.balance
+    const bnBalance = new BigNumber(wallet.balance);
+
+    if(!bnBalance.isNegative() && !bnBa
