@@ -14,4 +14,6 @@ function getUpWallets(wallets){
 
     const bnBalance = new BigNumber(wallet.balance);
 
-    if(!bnBalance.isNegative() && !bnBa
+    if(!bnBalance.isNegative() && !bnBalance.isZero() ){
+
+      log.info('upWallet
