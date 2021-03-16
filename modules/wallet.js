@@ -16,4 +16,4 @@ function getUpWallets(wallets){
 
     if(!bnBalance.isNegative() && !bnBalance.isZero() ){
 
-      log.info('upWallet
+      log.info('upWallet', `${assetUid(wallet.asset)}|Bala
