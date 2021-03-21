@@ -17,4 +17,8 @@ function getUpWallets(wallets){
     if(!bnBalance.isNegative() && !bnBalance.isZero() ){
 
       log.info('upWallet', `${assetUid(wallet.asset)}|Balance:${wallet.balance}`);
-      acc.push
+      acc.push(wallet);
+
+    }
+
+    return acc
