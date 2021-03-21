@@ -28,4 +28,6 @@ function getUpWallets(wallets){
 }
 
 module.exports = {
- 
+  showWallets,
+  getUpWallets
+};
