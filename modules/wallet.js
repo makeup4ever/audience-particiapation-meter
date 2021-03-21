@@ -21,4 +21,11 @@ function getUpWallets(wallets){
 
     }
 
-    return acc
+    return acc;
+
+  }, []);
+
+}
+
+module.exports = {
+ 
