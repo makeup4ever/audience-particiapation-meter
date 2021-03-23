@@ -77,3 +77,15 @@ class Oracle {
     this.run = true;
 
     while(this.run){
+
+      await this.updatePrices().catch(err => log.error('updatePrices', err) );
+
+      await sleep(this.checkPriceTimer * 1000);
+
+    }
+
+  }
+
+}
+
+module.exports = Oracle;
