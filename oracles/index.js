@@ -39,3 +39,41 @@ class Oracle {
     return false;
 
   }
+
+  setPrice(assetSelling, assetBuying, price){
+
+    if(typeof this.pricesHash[assetSelling.code] !== 'object'){
+
+      this.pricesHash[assetSelling.code] = {};
+
+    }
+
+    if(this.pricesHash[assetSelling.code][assetBuying.code] !== 'object'){
+
+      this.pricesHash[assetSelling.code][assetBuying.code] = {};
+
+    }
+
+    log.info('updatePrices', `${assetSelling.code}-${assetBuying.code}:${price.n}/${price.d}`);
+
+    this.pricesHash[assetSelling.code][assetBuying.code] = price;
+
+  }
+
+  async getAmount(wallet){ // eslint-disable-line class-methods-use-this
+
+    if(wallet.asset.isNative() ){
+
+      return false;
+
+    }
+
+    return wallet.balance;
+
+  }
+
+  async update(){
+
+    this.run = true;
+
+    while(this.run){
