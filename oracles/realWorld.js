@@ -1,1 +1,3 @@
-require('../config/glob
+require('../config/globalConfig');
+
+const log = require('n
