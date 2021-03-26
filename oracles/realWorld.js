@@ -1,3 +1,5 @@
 require('../config/globalConfig');
 
-const log = require('n
+const log = require('npmlog');
+const rp = require('request-promise');
+const
