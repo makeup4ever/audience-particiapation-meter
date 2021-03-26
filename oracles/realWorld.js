@@ -2,4 +2,4 @@ require('../config/globalConfig');
 
 const log = require('npmlog');
 const rp = require('request-promise');
-const
+const { ORACLE_CHECK_PRICE_TIMER } = require('..
