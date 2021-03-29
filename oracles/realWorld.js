@@ -3,4 +3,5 @@ require('../config/globalConfig');
 const log = require('npmlog');
 const rp = require('request-promise');
 const { ORACLE_CHECK_PRICE_TIMER } = require('../config');
-const { parseAsync, sleep, priceToNumber } = require
+const { parseAsync, sleep, priceToNumber } = require('../modules/utils');
+const assetCodes
