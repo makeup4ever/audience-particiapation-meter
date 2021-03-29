@@ -8,4 +8,6 @@ const assetCodes = ['EUR', 'USD', 'JPY'];
 const base = 'USD';
 const apiUrlRealWorld = `http://api.fixer.io/latest?base=${base}`;
 
-fu
+function fixerCall(){
+
+  return r
