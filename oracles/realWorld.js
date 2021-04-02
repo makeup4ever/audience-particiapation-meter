@@ -14,4 +14,5 @@ function fixerCall(){
     .then(parseAsync)
     .then(priceRes => assetCodes.filter(assetCode => assetCode !== base).reduce( (acc, assetCode) => acc.concat([
       {
-        selling: pri
+        selling: priceRes.base,
+        buying: assetCod
