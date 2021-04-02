@@ -12,4 +12,6 @@ function fixerCall(){
 
   return rp(apiUrlRealWorld)
     .then(parseAsync)
-    .then(priceRes => assetCodes.filter(assetCode => assetCode !== base).reduce( (acc, assetCode) => acc
+    .then(priceRes => assetCodes.filter(assetCode => assetCode !== base).reduce( (acc, assetCode) => acc.concat([
+      {
+        selling: pri
