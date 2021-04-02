@@ -17,4 +17,5 @@ function fixerCall(){
         selling: priceRes.base,
         buying: assetCode,
         rate: priceToNumber({
-          n: 
+          n: '1',
+          d: priceRes.rates[assetCode
