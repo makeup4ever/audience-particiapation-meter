@@ -12,4 +12,4 @@ function fixerCall(){
 
   return rp(apiUrlRealWorld)
     .then(parseAsync)
-    .then(priceRes => 
+    .then(priceRes => assetCodes.filter(assetCode => assetCode !== b
