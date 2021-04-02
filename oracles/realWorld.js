@@ -11,4 +11,5 @@ const apiUrlRealWorld = `http://api.fixer.io/latest?base=${base}`;
 function fixerCall(){
 
   return rp(apiUrlRealWorld)
-    .then(p
+    .then(parseAsync)
+    .then(priceRes => 
