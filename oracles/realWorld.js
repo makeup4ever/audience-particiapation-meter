@@ -20,4 +20,7 @@ function fixerCall(){
           n: '1',
           d: priceRes.rates[assetCode].toString()
         })
-    
+      },
+      {
+        selling: assetCode,
+   
