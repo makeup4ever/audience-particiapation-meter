@@ -23,4 +23,5 @@ function fixerCall(){
       },
       {
         selling: assetCode,
-   
+        buying: priceRes.base,
+  
