@@ -30,4 +30,9 @@ function fixerCall(){
         })
       }
     ]), []) )
-    .catch(err => log.e
+    .catch(err => log.error('fixerCall', err) );
+
+}
+
+class Oracle {
+
