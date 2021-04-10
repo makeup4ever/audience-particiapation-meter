@@ -28,4 +28,6 @@ function fixerCall(){
           n: priceRes.rates[assetCode].toString(),
           d: '1'
         })
-  
+      }
+    ]), []) )
+    .catch(err => log.e
