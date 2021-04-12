@@ -38,4 +38,5 @@ class Oracle {
 
   constructor(){
 
-    this.run = false
+    this.run = false;
+    this.pricesHash =
