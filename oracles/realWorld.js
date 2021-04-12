@@ -36,3 +36,6 @@ function fixerCall(){
 
 class Oracle {
 
+  constructor(){
+
+    this.run = false
