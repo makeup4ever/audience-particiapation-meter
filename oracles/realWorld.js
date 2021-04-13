@@ -43,4 +43,6 @@ class Oracle {
 
   }
 
-  async getPrice(assetSelling, asset
+  async getPrice(assetSelling, assetBuying){
+
+    if(assetSelling.isNati
