@@ -39,4 +39,8 @@ class Oracle {
   constructor(){
 
     this.run = false;
-    this.pricesHash =
+    this.pricesHash = {};
+
+  }
+
+  async getPrice(assetSelling, asset
