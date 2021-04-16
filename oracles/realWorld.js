@@ -45,4 +45,10 @@ class Oracle {
 
   async getPrice(assetSelling, assetBuying){
 
-    if(assetSelling.isNati
+    if(assetSelling.isNative() ){
+
+      return false;
+
+    }
+
+ 
