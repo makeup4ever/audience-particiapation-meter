@@ -51,4 +51,4 @@ class Oracle {
 
     }
 
- 
+    if(typeof this.pricesHash[assetSe
