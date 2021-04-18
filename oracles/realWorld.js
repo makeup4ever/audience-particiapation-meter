@@ -51,4 +51,4 @@ class Oracle {
 
     }
 
-    if(typeof this.pricesHash[assetSe
+    if(typeof this.pricesHash[assetSelling.code] === 'object' && typeof t
