@@ -53,4 +53,4 @@ class Oracle {
 
     if(typeof this.pricesHash[assetSelling.code] === 'object' && typeof this.pricesHash[assetSelling.code][assetBuying.code] === 'object'){
 
-      // log.inf
+      // log.info('getPrice', `assetSelling:${asset
