@@ -55,4 +55,4 @@ class Oracle {
 
       // log.info('getPrice', `assetSelling:${assetUid(assetSelling)}|Price:${0}|assetBuying:${assetUid(assetBuying)}`);
 
-      return this.pricesHa
+      return this.pricesHash[assetSelling.code][ass
