@@ -59,4 +59,8 @@ class Oracle {
 
     }
 
-    return 
+    return false;
+
+  }
+
+  setPrice(assetSelling
