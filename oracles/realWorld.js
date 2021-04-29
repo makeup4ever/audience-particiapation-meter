@@ -63,4 +63,6 @@ class Oracle {
 
   }
 
-  setPrice(assetSelling
+  setPrice(assetSelling, assetBuying, price){
+
+    if(typeof 
