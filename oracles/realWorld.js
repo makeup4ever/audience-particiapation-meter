@@ -65,4 +65,4 @@ class Oracle {
 
   setPrice(assetSelling, assetBuying, price){
 
-    if(typeof 
+    if(typeof this.pricesHash[assetSelling.code] 
