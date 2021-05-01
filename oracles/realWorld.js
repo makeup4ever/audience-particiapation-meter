@@ -67,4 +67,4 @@ class Oracle {
 
     if(typeof this.pricesHash[assetSelling.code] !== 'object'){
 
-      this.prices
+      this.pricesHash[assetSelling.code] = {};
