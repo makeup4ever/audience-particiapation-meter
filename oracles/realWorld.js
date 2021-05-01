@@ -65,4 +65,6 @@ class Oracle {
 
   setPrice(assetSelling, assetBuying, price){
 
-    if(typeof this.pricesHash[assetSelling.code] 
+    if(typeof this.pricesHash[assetSelling.code] !== 'object'){
+
+      this.prices
