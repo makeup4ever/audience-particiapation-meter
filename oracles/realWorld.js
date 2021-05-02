@@ -71,4 +71,4 @@ class Oracle {
 
     }
 
-    if(this.pricesHash[asset
+    if(this.pricesHash[assetSelling.code][assetBuying.
