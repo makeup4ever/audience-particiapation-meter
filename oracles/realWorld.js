@@ -75,4 +75,6 @@ class Oracle {
 
       this.pricesHash[assetSelling.code][assetBuying.code] = {};
 
-  
+    }
+
+    log.info('updatePrices', `${
