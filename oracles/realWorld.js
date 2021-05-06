@@ -77,4 +77,4 @@ class Oracle {
 
     }
 
-    log.info('updatePrices', `${
+    log.info('updatePrices', `${assetSelling.code}-${assetBuying.
