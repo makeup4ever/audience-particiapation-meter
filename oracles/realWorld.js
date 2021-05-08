@@ -77,4 +77,5 @@ class Oracle {
 
     }
 
-    log.info('updatePrices', `${assetSelling.code}-${assetBuying.
+    log.info('updatePrices', `${assetSelling.code}-${assetBuying.code}:${price.n}/${price.d}`);
+
