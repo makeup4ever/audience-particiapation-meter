@@ -79,4 +79,8 @@ class Oracle {
 
     log.info('updatePrices', `${assetSelling.code}-${assetBuying.code}:${price.n}/${price.d}`);
 
-    this.pricesHash[assetSelling.code][assetBu
+    this.pricesHash[assetSelling.code][assetBuying.code] = price;
+
+  }
+
+  async
