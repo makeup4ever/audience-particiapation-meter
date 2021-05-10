@@ -83,4 +83,4 @@ class Oracle {
 
   }
 
-  async
+  async getAmount(wallet){ // eslint-disable-line
