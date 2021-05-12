@@ -85,4 +85,10 @@ class Oracle {
 
   async getAmount(wallet){ // eslint-disable-line class-methods-use-this
 
-    if(wallet.asset.isNativ
+    if(wallet.asset.isNative() ){
+
+      return false;
+
+    }
+
+    re
