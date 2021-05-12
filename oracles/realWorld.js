@@ -91,4 +91,8 @@ class Oracle {
 
     }
 
-    re
+    return wallet.balance;
+
+  }
+
+  asyn
