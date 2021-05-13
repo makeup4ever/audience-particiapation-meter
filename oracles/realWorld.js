@@ -95,4 +95,6 @@ class Oracle {
 
   }
 
-  asyn
+  async update(){
+
+    this.run =
