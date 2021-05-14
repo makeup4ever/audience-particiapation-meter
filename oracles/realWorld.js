@@ -97,4 +97,7 @@ class Oracle {
 
   async update(){
 
-    this.run =
+    this.run = true;
+
+    while(this.run){
+
