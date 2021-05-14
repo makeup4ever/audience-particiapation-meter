@@ -101,3 +101,4 @@ class Oracle {
 
     while(this.run){
 
+      await this.updatePrices().catch(e
