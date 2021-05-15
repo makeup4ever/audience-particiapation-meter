@@ -101,4 +101,6 @@ class Oracle {
 
     while(this.run){
 
-      await this.updatePrices().catch(e
+      await this.updatePrices().catch(err => log.error('updatePrices', err) );
+
+   
