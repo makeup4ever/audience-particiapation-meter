@@ -109,4 +109,6 @@ class Oracle {
 
   }
 
-  async up
+  async updatePrices(){
+
+    return fixerC
