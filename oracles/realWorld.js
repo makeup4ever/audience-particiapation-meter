@@ -111,4 +111,5 @@ class Oracle {
 
   async updatePrices(){
 
-    return fixerC
+    return fixerCall()
+      .then(realWorldPrice => rea
