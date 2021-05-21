@@ -119,4 +119,4 @@ class Oracle {
 
 }
 
-modul
+module.exports = Oracle;
