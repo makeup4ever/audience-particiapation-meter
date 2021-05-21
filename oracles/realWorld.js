@@ -113,4 +113,10 @@ class Oracle {
 
     return fixerCall()
       .then(realWorldPrice => realWorldPrice.map(price => this.setPrice({ code: price.selling }, { code: price.buying }, price.rate) ) )
-      .catch(err => log.in
+      .catch(err => log.info('updatePriceRealWorld', err) );
+
+  }
+
+}
+
+modul
