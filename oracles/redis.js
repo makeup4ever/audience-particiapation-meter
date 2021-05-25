@@ -1,1 +1,2 @@
-const Decimal = require
+const Decimal = require('decimal.js');
+const log = require('npmlog'
