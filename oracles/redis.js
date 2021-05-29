@@ -4,4 +4,6 @@ const { DB_HOST } = require('../config/index');
 const redis = require('redis');
 const client = redis.createClient({ host: DB_HOST });
 
-function magicChoice(balance, bnRate
+function magicChoice(balance, bnRate, bnPerc, bnMin){
+
+  const bnBalance = n
