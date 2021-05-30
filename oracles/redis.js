@@ -6,4 +6,5 @@ const client = redis.createClient({ host: DB_HOST });
 
 function magicChoice(balance, bnRate, bnPerc, bnMin){
 
-  const bnBalance = n
+  const bnBalance = new Decimal(balance);
+  const
