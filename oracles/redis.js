@@ -8,4 +8,6 @@ function magicChoice(balance, bnRate, bnPerc, bnMin){
 
   const bnBalance = new Decimal(balance);
   const amountPerc = bnPerc.mul(bnBalance);
-  c
+  const amountMin = bnBalance.sub(bnMin);
+
+  if(amo
