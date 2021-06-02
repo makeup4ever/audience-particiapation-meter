@@ -10,4 +10,4 @@ function magicChoice(balance, bnRate, bnPerc, bnMin){
   const amountPerc = bnPerc.mul(bnBalance);
   const amountMin = bnBalance.sub(bnMin);
 
-  if(amountPerc.greaterThan(amountMin) && amountPerc.isPositive() 
+  if(amountPerc.greaterThan(amountMin) && amountPerc.isPositive() && !amountPerc.isZero() 
