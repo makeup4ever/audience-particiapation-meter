@@ -17,4 +17,6 @@ function magicChoice(balance, bnRate, bnPerc, bnMin){
       value: bnRate
     };
 
-  } else if(amountMin.isPositi
+  } else if(amountMin.isPositive() && !amountMin.isZero() ){
+
+   
