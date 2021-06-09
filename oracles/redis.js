@@ -22,4 +22,8 @@ function magicChoice(balance, bnRate, bnPerc, bnMin){
     return {
       amount: amountMin,
       value: bnRate
-    }
+    };
+
+  }
+
+  log.info('getPrice', `NoTra
