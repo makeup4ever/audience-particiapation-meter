@@ -26,4 +26,4 @@ function magicChoice(balance, bnRate, bnPerc, bnMin){
 
   }
 
-  log.info('getPrice', `NoTrade|bgMin:${bnMin}|bgPerc${bnPerc}|Rate:${bn
+  log.info('getPrice', `NoTrade|bgMin:${bnMin}|bgPerc${bnPerc}|Rate:${bnRate.toString()}|Balance:${balance}`)
