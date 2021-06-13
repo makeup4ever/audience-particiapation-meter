@@ -32,4 +32,5 @@ function magicChoice(balance, bnRate, bnPerc, bnMin){
 
 }
 
-class Oracle 
+class Oracle {
+  static async getPrice(assetSelli
