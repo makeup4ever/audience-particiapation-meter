@@ -33,4 +33,6 @@ function magicChoice(balance, bnRate, bnPerc, bnMin){
 }
 
 class Oracle {
-  static async getPrice(assetSelling, assetBuying){ // eslint-disable-line max-s
+  static async getPrice(assetSelling, assetBuying){ // eslint-disable-line max-statements, complexity
+
+    cons
