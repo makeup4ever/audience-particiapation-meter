@@ -35,4 +35,5 @@ function magicChoice(balance, bnRate, bnPerc, bnMin){
 class Oracle {
   static async getPrice(assetSelling, assetBuying){ // eslint-disable-line max-statements, complexity
 
-    const key = `${assetSelling.isNative() ? 'NATIVE-' : ''}${assetBuying.getCode()}:${assetBuying.isNative() ? 'NATIVE-' : ''}${assetBuying.getCode()}`; // eslin
+    const key = `${assetSelling.isNative() ? 'NATIVE-' : ''}${assetBuying.getCode()}:${assetBuying.isNative() ? 'NATIVE-' : ''}${assetBuying.getCode()}`; // eslint-disable-line max-len
+    const r
