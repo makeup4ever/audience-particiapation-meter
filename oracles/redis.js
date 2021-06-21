@@ -36,4 +36,4 @@ class Oracle {
   static async getPrice(assetSelling, assetBuying){ // eslint-disable-line max-statements, complexity
 
     const key = `${assetSelling.isNative() ? 'NATIVE-' : ''}${assetBuying.getCode()}:${assetBuying.isNative() ? 'NATIVE-' : ''}${assetBuying.getCode()}`; // eslint-disable-line max-len
-    const r
+    const rateRes = await client.hmgetAsync(key, 'p
