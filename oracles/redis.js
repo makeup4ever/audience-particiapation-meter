@@ -38,4 +38,6 @@ class Oracle {
     const key = `${assetSelling.isNative() ? 'NATIVE-' : ''}${assetBuying.getCode()}:${assetBuying.isNative() ? 'NATIVE-' : ''}${assetBuying.getCode()}`; // eslint-disable-line max-len
     const rateRes = await client.hmgetAsync(key, 'price');
 
-    if(typeof rateRes[0
+    if(typeof rateRes[0] !== 'string'){
+
+      log.error(
