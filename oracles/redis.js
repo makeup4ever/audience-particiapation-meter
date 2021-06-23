@@ -40,4 +40,4 @@ class Oracle {
 
     if(typeof rateRes[0] !== 'string'){
 
-      log.error(
+      log.error('getPrice', `NoRate:${key}|Balance:
