@@ -42,4 +42,8 @@ class Oracle {
 
       log.error('getPrice', `NoRate:${key}|Balance:${assetSelling.balance}`);
 
-      retu
+      return false;
+
+    }
+
+    const bnRate = n
