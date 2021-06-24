@@ -46,4 +46,5 @@ class Oracle {
 
     }
 
-    const bnRate = n
+    const bnRate = new Decimal(rateRes[0]);
+    const assetKey
