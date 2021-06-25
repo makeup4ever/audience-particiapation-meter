@@ -47,4 +47,4 @@ class Oracle {
     }
 
     const bnRate = new Decimal(rateRes[0]);
-    const assetKey
+    const assetKey = `${assetSelling.isNative() ? 
