@@ -48,4 +48,4 @@ class Oracle {
 
     const bnRate = new Decimal(rateRes[0]);
     const assetKey = `${assetSelling.isNative() ? 'NATIVE-' : ''}${assetSelling.getCode()}`;
-    const assetRes = a
+    const assetRes = await client.hmgetAsync(assetKe
