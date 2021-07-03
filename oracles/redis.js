@@ -50,4 +50,4 @@ class Oracle {
     const assetKey = `${assetSelling.isNative() ? 'NATIVE-' : ''}${assetSelling.getCode()}`;
     const assetRes = await client.hmgetAsync(assetKey, 'min', 'perc');
 
-    if(assetRes.length < 2 || typeof assetRes[0] !== 'string' || assetRes[0].length < 
+    if(assetRes.length < 2 || typeof assetRes[0] !== 'string' || assetRes[0].length < 1 || typeof assetRes[1] !== 'string' ||
