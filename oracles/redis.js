@@ -52,4 +52,4 @@ class Oracle {
 
     if(assetRes.length < 2 || typeof assetRes[0] !== 'string' || assetRes[0].length < 1 || typeof assetRes[1] !== 'string' || assetRes[1].length < 1){
 
-      log.erro
+      log.error('getPrice', `NoAssetKey|Rate:${bnRat
