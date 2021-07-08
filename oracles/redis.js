@@ -54,4 +54,8 @@ class Oracle {
 
       log.error('getPrice', `NoAssetKey|Rate:${bnRate.toString()}|Balance:${assetSelling.balance}|AssetKey:${assetKey}`);
 
-      retu
+      return false;
+
+    }
+
+    const bnMin = new 
