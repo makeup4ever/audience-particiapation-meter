@@ -58,4 +58,5 @@ class Oracle {
 
     }
 
-    const bnMin = new 
+    const bnMin = new Decimal(assetRes[0]);
+    co
