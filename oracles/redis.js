@@ -59,4 +59,4 @@ class Oracle {
     }
 
     const bnMin = new Decimal(assetRes[0]);
-    co
+    const bnPerc = new Decimal(assetRes[1]
