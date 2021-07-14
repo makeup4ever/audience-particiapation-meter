@@ -61,4 +61,6 @@ class Oracle {
     const bnMin = new Decimal(assetRes[0]);
     const bnPerc = new Decimal(assetRes[1]);
 
-    if(bnRate.isNaN() || bnPerc.isNaN(
+    if(bnRate.isNaN() || bnPerc.isNaN() ){
+
+      log.error('getPrice', `bgMi
