@@ -63,4 +63,4 @@ class Oracle {
 
     if(bnRate.isNaN() || bnPerc.isNaN() ){
 
-      log.error('getPrice', `bgMi
+      log.error('getPrice', `bgMin or bgPerc NaN|bgMin:${bnMin}|bgPe
