@@ -65,4 +65,8 @@ class Oracle {
 
       log.error('getPrice', `bgMin or bgPerc NaN|bgMin:${bnMin}|bgPerc${bnPerc}|Rate:${bnRate.toString()}|Balance:${assetSelling.balance}|assetKey:${assetKey}`); // eslint-disable-line max-len
 
-      retu
+      return false;
+
+    }
+
+    return magicChoi
