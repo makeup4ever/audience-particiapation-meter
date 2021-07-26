@@ -69,4 +69,4 @@ class Oracle {
 
     }
 
-    return magicChoi
+    return magicChoice(assetSelling.balance, bnRate, bnPerc, bnMin);
