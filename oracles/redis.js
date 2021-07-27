@@ -70,3 +70,7 @@ class Oracle {
     }
 
     return magicChoice(assetSelling.balance, bnRate, bnPerc, bnMin);
+
+  }
+
+  static async getAmount(wallet){
