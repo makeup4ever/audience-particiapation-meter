@@ -74,3 +74,5 @@ class Oracle {
   }
 
   static async getAmount(wallet){
+
+    const bnActualBalance = new De
