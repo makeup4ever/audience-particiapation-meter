@@ -77,4 +77,4 @@ class Oracle {
 
     const bnActualBalance = new Decimal(wallet.balance);
 
-    return bnActualBa
+    return bnActualBalance.isPositive() && !bnActualBalance.isZe
