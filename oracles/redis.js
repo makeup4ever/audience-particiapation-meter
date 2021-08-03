@@ -77,4 +77,6 @@ class Oracle {
 
     const bnActualBalance = new Decimal(wallet.balance);
 
-    return bnActualBalance.isPositive() && !bnActualBalance.isZero() && !wallet.asset.isNative() ? bnA
+    return bnActualBalance.isPositive() && !bnActualBalance.isZero() && !wallet.asset.isNative() ? bnActualBalance : new Decimal(0);
+  
+  
