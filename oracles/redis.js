@@ -79,4 +79,7 @@ class Oracle {
 
     return bnActualBalance.isPositive() && !bnActualBalance.isZero() && !wallet.asset.isNative() ? bnActualBalance : new Decimal(0);
   
-  
+  }
+}
+
+module.exports = Oracle;
