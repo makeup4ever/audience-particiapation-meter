@@ -1,1 +1,3 @@
-const O
+const Oracle = require('./');
+const one = {
+  n
