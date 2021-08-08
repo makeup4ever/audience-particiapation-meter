@@ -5,3 +5,7 @@ const one = {
 };
 
 class SimpleOracle extends Oracle {
+
+  constructor(){
+
+    const pricesHa
