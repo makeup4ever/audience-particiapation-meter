@@ -8,4 +8,7 @@ class SimpleOracle extends Oracle {
 
   constructor(){
 
-    const pricesHa
+    const pricesHash = {
+      EUR: {
+        USD: {
+          n
