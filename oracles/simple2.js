@@ -11,4 +11,7 @@ class SimpleOracle extends Oracle {
     const pricesHash = {
       EUR: {
         USD: {
-          n
+          n: 1,
+          d: 1
+        },
+        JPY: o
