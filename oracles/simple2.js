@@ -17,4 +17,6 @@ class SimpleOracle extends Oracle {
         JPY: one
       },
       USD: {
+        JPY: one,
+        EUR: {
     
