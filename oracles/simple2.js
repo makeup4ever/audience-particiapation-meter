@@ -25,3 +25,8 @@ class SimpleOracle extends Oracle {
       },
       JPY: {
         EUR: one,
+        USD: one
+      }
+    };
+
+    super({ prices
