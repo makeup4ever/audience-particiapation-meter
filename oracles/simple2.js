@@ -22,4 +22,6 @@ class SimpleOracle extends Oracle {
           n: 1,
           d: 1
         }
-  
+      },
+      JPY: {
+        EUR: one,
