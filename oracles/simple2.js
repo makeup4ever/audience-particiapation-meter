@@ -29,4 +29,10 @@ class SimpleOracle extends Oracle {
       }
     };
 
-    super({ prices
+    super({ pricesHash });
+
+  }
+
+}
+
+module.exports = Si
