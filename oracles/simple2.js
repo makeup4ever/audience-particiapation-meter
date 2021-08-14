@@ -35,4 +35,4 @@ class SimpleOracle extends Oracle {
 
 }
 
-module.exports = Si
+module.exports = SimpleOracle;
