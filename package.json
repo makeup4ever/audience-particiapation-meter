@@ -21,3 +21,35 @@
     "test": "mocha --harmony-async-await --trace-warnings -R spec ./test/test.config.js ./test/spec/*.js --timeout 5000",
     "lint": "eslint .",
     "travis": "npm run lint && npm run test",
+    "bot": "node --harmony-async-await --trace-warnings bot/run.js",
+    "gen-accounts": "node --harmony-async-await --trace-warnings genAccounts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julesGoullee/garnet"
+  },
+  "author": {
+    "name": "Jules Goullée",
+    "email": "julesgoullee@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "7.1.1",
+    "bignumber.js": "4.0.0",
+    "bluebird": "3.4.7",
+    "chai": "3.5.0",
+    "chai-as-promised": "6.0.0",
+    "chai-spies": "0.7.1",
+    "eslint": "3.10.2",
+    "eslint-plugin-babel": "4.0.0",
+    "jsonfile": "2.4.0",
+    "mocha": "3.2.0",
+    "mock-require": "2.0.1",
+    "npmlog": "4.0.2",
+    "redis": "2.6.5",
+    "request": "2.79.0",
+    "request-promise": "4.1.1",
+    "stellar-sdk": "0.6.2",
+    "uuid-random": "1.0.5"
+  }
+}
