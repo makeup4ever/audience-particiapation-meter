@@ -1,2 +1,4 @@
 # Garnet
-> Automatic market maker
+> Automatic market maker on Stellar Network
+
+[![NPM Version][npm
