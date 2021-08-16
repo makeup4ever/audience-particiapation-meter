@@ -1,4 +1,5 @@
 # Garnet
 > Automatic market maker on Stellar Network
 
-[![NPM Version][npm
+[![NPM Version][npm-image]][npm-url]
+[![Linux Build
