@@ -2,4 +2,5 @@
 > Automatic market maker on Stellar Network
 
 [![NPM Version][npm-image]][npm-url]
-[![Linux Build
+[![Linux Build][travis-image]][travis-url]
+[![depend
