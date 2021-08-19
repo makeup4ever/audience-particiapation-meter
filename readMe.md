@@ -3,4 +3,4 @@
 
 [![NPM Version][npm-image]][npm-url]
 [![Linux Build][travis-image]][travis-url]
-[![depend
+[![dependencies Status][david-image]][da
