@@ -5,4 +5,4 @@
 [![Linux Build][travis-image]][travis-url]
 [![dependencies Status][david-image]][david-url]
 
-**Garnet** is a marke
+**Garnet** is a market-maker bot for the [Stellar netwo
