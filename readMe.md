@@ -9,4 +9,6 @@
 
 Its main goal is not to earn money but to help the *expansion* and introduction of *anchors* into Stellar network. It allows anchors to diffuse their assets, and users to send path payments with assets they do not hold. It is made to play the essential role of real market-makers until there are enough players on the network.
 
-This repository shows my original idea to strengthen the network and to show a proof-of-concept implementation. It is not intended to be used on public network for now, but to serve as a starter
+This repository shows my original idea to strengthen the network and to show a proof-of-concept implementation. It is not intended to be used on public network for now, but to serve as a starter-kit for an anchor.
+
+The bot is launch
