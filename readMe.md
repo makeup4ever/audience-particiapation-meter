@@ -11,4 +11,4 @@ Its main goal is not to earn money but to help the *expansion* and introduction 
 
 This repository shows my original idea to strengthen the network and to show a proof-of-concept implementation. It is not intended to be used on public network for now, but to serve as a starter-kit for an anchor.
 
-The bot is launch
+The bot is launched with an account seed created speci
