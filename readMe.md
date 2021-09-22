@@ -12,4 +12,4 @@ Its main goal is not to earn money but to help the *expansion* and introduction 
 This repository shows my original idea to strengthen the network and to show a proof-of-concept implementation. It is not intended to be used on public network for now, but to serve as a starter-kit for an anchor.
 
 The bot is launched with an account seed created specifically for it. It first checks his trustlines and balances. Then it creates **passive offers** for everything the account holds, with rates defined by an **oracle**.
-The Oracle is
+The Oracle is an independent module that t
