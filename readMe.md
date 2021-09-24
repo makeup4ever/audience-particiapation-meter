@@ -14,4 +14,4 @@ This repository shows my original idea to strengthen the network and to show a p
 The bot is launched with an account seed created specifically for it. It first checks his trustlines and balances. Then it creates **passive offers** for everything the account holds, with rates defined by an **oracle**.
 The Oracle is an independent module that tells the bot prices and amount to sell for a pair of assets.
 
-In t
+In this project, there are three diffe
