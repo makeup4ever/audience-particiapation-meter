@@ -15,4 +15,4 @@ The bot is launched with an account seed created specifically for it. It first c
 The Oracle is an independent module that tells the bot prices and amount to sell for a pair of assets.
 
 In this project, there are three different oracles:
-- One very basic, that se
+- One very basic, that sells everything it holds for a price of
