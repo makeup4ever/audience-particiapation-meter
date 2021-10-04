@@ -16,4 +16,4 @@ The Oracle is an independent module that tells the bot prices and amount to sell
 
 In this project, there are three different oracles:
 - One very basic, that sells everything it holds for a price of 1:1 (`oracles/simple.js`)
-- One tha
+- One that fetch current market prices of c
