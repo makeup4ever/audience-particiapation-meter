@@ -16,4 +16,5 @@ The Oracle is an independent module that tells the bot prices and amount to sell
 
 In this project, there are three different oracles:
 - One very basic, that sells everything it holds for a price of 1:1 (`oracles/simple.js`)
-- One that fetch current market prices of common currences (USD, EUR, BTC, ...) from public APIs (currently [Fixer.io](https://fixer.io)) (`oracles/realW
+- One that fetch current market prices of common currences (USD, EUR, BTC, ...) from public APIs (currently [Fixer.io](https://fixer.io)) (`oracles/realWorld.js`)
+- One that reads prices and amount in a 
