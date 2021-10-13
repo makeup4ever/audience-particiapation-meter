@@ -22,4 +22,4 @@ In this project, there are three different oracles:
 
 ## Use case
 
-When 
+When an anchor wants to get into the stell
