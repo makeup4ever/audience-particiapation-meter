@@ -22,4 +22,4 @@ In this project, there are three different oracles:
 
 ## Use case
 
-When an anchor wants to get into the stellar network, no one holds its assets. There must be market makers that trust this new anchor to allow path paymen
+When an anchor wants to get into the stellar network, no one holds its assets. There must be market makers that trust this new anchor to allow path payments and trading of its assets. At the v
