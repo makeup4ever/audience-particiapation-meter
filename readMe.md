@@ -24,4 +24,4 @@ In this project, there are three different oracles:
 
 When an anchor wants to get into the stellar network, no one holds its assets. There must be market makers that trust this new anchor to allow path payments and trading of its assets. At the very beginning, an anchor can become its own market maker, choose to trust some others anchor's assets, inject its own asset into the bot and get others assets in exchange. The bot will then, lose anchor assets, but gain others. 
 The anchor must invest money into the market, but it will get others currencies claimable on the real world afterwards.
-At the end, the an
+At the end, the anchor assets will be flowing on the network a
