@@ -29,4 +29,4 @@ To stay fair and not to lose money, the bot must use an oracle that announce cor
 
 ## Running demo
 
-You can w
+You can watch the current balances and offers for on ou
