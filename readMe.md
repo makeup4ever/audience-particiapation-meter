@@ -29,4 +29,6 @@ To stay fair and not to lose money, the bot must use an oracle that announce cor
 
 ## Running demo
 
-You can watch the current balances and offers for on our demo bot running on testnet on [Stellar Portal](https://stellar-portal.ngfar.io/?accountId=GDEROTTYIQZSVLECX2DDBZVLSPCRZAMUP5V7JRH2GTNYG3XJ3
+You can watch the current balances and offers for on our demo bot running on testnet on [Stellar Portal](https://stellar-portal.ngfar.io/?accountId=GDEROTTYIQZSVLECX2DDBZVLSPCRZAMUP5V7JRH2GTNYG3XJ3TAJ3KNG)
+
+https://stellar-porta
