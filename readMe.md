@@ -33,4 +33,4 @@ You can watch the current balances and offers for on our demo bot running on tes
 
 https://stellar-portal.ngfar.io/?accountId=GDEROTTYIQZSVLECX2DDBZVLSPCRZAMUP5V7JRH2GTNYG3XJ3TAJ3KNG
 
-On this account, you can see that the bot holds EUR, USD, and BTC and has offers with current market prices. If you send it assets, you will see that it is updating his offers. *(If you want
+On this account, you can see that the bot holds EUR, USD, and BTC and has offers with current market prices. If you send it assets, you will see that it is updating his offers. *(If you want to receive some assets, se
