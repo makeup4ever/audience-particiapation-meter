@@ -37,4 +37,4 @@ On this account, you can see that the bot holds EUR, USD, and BTC and has offers
 
 ## Running
 
-Y
+You can run your own bot and test its behaviour o
