@@ -37,4 +37,4 @@ On this account, you can see that the bot holds EUR, USD, and BTC and has offers
 
 ## Running
 
-You can run your own bot and test its behaviour o
+You can run your own bot and test its behaviour on the testnet. You can use tools like [S
