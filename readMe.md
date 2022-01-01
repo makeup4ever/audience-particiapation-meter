@@ -37,4 +37,4 @@ On this account, you can see that the bot holds EUR, USD, and BTC and has offers
 
 ## Running
 
-You can run your own bot and test its behaviour on the testnet. You can use tools like [Stellar Portal](https://stellar-portal.ngfar.io/) or [Stellar Laboratory
+You can run your own bot and test its behaviour on the testnet. You can use tools like [Stellar Portal](https://stellar-portal.ngfar.io/) or [Stellar Laboratory](https://www.stellar.org/laboratory) for
