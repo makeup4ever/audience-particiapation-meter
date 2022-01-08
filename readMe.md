@@ -42,4 +42,5 @@ You can run your own bot and test its behaviour on the testnet. You can use tool
 - Create a bot account
 - Create some issuer accounts, create trustlines to issuers assets *(corresponding to known currencies, EUR, USD...)* on the bot account
 - Fund the bot account with one or two assets
-- Watch o
+- Watch offers that it has created.
+
