@@ -44,3 +44,8 @@ You can run your own bot and test its behaviour on the testnet. You can use tool
 - Fund the bot account with one or two assets
 - Watch offers that it has created.
 
+### Requirements
+
+- NodeJS v7+
+
+### 
