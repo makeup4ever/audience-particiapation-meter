@@ -50,4 +50,6 @@ You can run your own bot and test its behaviour on the testnet. You can use tool
 
 ### How to use
 
-The easiest way to 
+The easiest way to run the bot is from command line.
+
+- In
