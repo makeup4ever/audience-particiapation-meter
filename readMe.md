@@ -52,4 +52,4 @@ You can run your own bot and test its behaviour on the testnet. You can use tool
 
 The easiest way to run the bot is from command line.
 
-- In
+- Install node dependencie
