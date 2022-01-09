@@ -48,4 +48,6 @@ You can run your own bot and test its behaviour on the testnet. You can use tool
 
 - NodeJS v7+
 
-### 
+### How to use
+
+The easiest way to 
