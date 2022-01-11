@@ -53,4 +53,6 @@ You can run your own bot and test its behaviour on the testnet. You can use tool
 The easiest way to run the bot is from command line.
 
 - Install node dependencies
-- Run `npm start` with `SEED`environment variable filled with
+- Run `npm start` with `SEED`environment variable filled with the bot's secret seed.
+
+```
