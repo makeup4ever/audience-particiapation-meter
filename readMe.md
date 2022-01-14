@@ -57,4 +57,7 @@ The easiest way to run the bot is from command line.
 
 ``` bash
 $ npm install
-$ SEED=SDJEUIJR
+$ SEED=SDJEUIJRE npm run bot
+```
+
+### Npm I
