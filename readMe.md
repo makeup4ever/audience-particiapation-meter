@@ -55,4 +55,6 @@ The easiest way to run the bot is from command line.
 - Install node dependencies
 - Run `npm start` with `SEED`environment variable filled with the bot's secret seed.
 
-```
+``` bash
+$ npm install
+$ SEED=SDJEUIJR
