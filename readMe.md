@@ -60,4 +60,6 @@ $ npm install
 $ SEED=SDJEUIJRE npm run bot
 ```
 
-### Npm I
+### Npm Installation:
+
+You can implement y
