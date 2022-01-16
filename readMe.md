@@ -62,4 +62,4 @@ $ SEED=SDJEUIJRE npm run bot
 
 ### Npm Installation:
 
-You can implement your own oracle. This is an exampl
+You can implement your own oracle. This is an example of a bot instance with a simple oracle that 
