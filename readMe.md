@@ -62,4 +62,4 @@ $ SEED=SDJEUIJRE npm run bot
 
 ### Npm Installation:
 
-You can implement y
+You can implement your own oracle. This is an exampl
