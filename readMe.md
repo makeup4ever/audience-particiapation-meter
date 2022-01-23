@@ -62,4 +62,6 @@ $ SEED=SDJEUIJRE npm run bot
 
 ### Npm Installation:
 
-You can implement your own oracle. This is an example of a bot instance with a simple oracle that sells everything at price 1:1 except L
+You can implement your own oracle. This is an example of a bot instance with a simple oracle that sells everything at price 1:1 except Lumens.
+
+You Oracle just have to implem
