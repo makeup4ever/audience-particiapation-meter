@@ -71,4 +71,6 @@ $ npm install garnet-market-maker
 ```
 
 ``` javascript
-const Bot = require('garnet-market-
+const Bot = require('garnet-market-maker').Bot;
+
+class Oracl
