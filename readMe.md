@@ -70,4 +70,5 @@ Assets are instance of StellarSDK's `Asset` class.
 $ npm install garnet-market-maker
 ```
 
-``` javascri
+``` javascript
+const Bot = require('garnet-market-
