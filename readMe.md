@@ -73,4 +73,6 @@ $ npm install garnet-market-maker
 ``` javascript
 const Bot = require('garnet-market-maker').Bot;
 
-class Oracl
+class Oracle {
+
+  async getPrice(assetSellin
