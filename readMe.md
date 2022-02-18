@@ -75,4 +75,4 @@ const Bot = require('garnet-market-maker').Bot;
 
 class Oracle {
 
-  async getPrice(assetSellin
+  async getPrice(assetSelling, assetBuying){ // For example 1:1 
