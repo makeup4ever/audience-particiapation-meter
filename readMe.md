@@ -79,4 +79,9 @@ class Oracle {
 
     return {
       n: 1,
-      
+      d: 1
+    };
+
+  }
+  
+  async getAm
