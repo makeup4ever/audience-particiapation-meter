@@ -84,4 +84,6 @@ class Oracle {
 
   }
   
-  async getAmount(wallet){ // For example bid all res
+  async getAmount(wallet){ // For example bid all ressource
+
+    if(wallet.asset.
