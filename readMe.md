@@ -86,4 +86,10 @@ class Oracle {
   
   async getAmount(wallet){ // For example bid all ressource
 
-    if(wallet.asset.
+    if(wallet.asset.isNative() ){
+
+      return 0;
+
+    }
+
+    ret
