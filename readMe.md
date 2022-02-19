@@ -92,4 +92,10 @@ class Oracle {
 
     }
 
-    ret
+    return wallet.balance;
+
+  }
+  
+}
+
+const 
