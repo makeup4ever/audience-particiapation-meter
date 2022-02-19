@@ -99,4 +99,5 @@ class Oracle {
 }
 
 const SEED = 'yourSeed';
-const o
+const oracle = new Oracle();
+const bot =
