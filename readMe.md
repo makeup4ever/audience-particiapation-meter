@@ -98,4 +98,5 @@ class Oracle {
   
 }
 
-const 
+const SEED = 'yourSeed';
+const o
