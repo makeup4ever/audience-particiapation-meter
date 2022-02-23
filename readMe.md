@@ -107,4 +107,4 @@ bot.run();
 ```
 ## Improvements
 
-This bot is just a proof-of-concept for a 
+This bot is just a proof-of-concept for a market-maker bot to support the stellar netwo
