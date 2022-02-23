@@ -101,3 +101,10 @@ class Oracle {
 const SEED = 'yourSeed';
 const oracle = new Oracle();
 const bot = new Bot(SEED, oracle);
+
+bot.run();
+
+```
+## Improvements
+
+Thi
