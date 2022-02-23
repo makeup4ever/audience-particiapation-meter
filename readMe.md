@@ -107,4 +107,4 @@ bot.run();
 ```
 ## Improvements
 
-Thi
+This bot is just a proof-of-concept for a 
