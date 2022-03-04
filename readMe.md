@@ -109,4 +109,6 @@ bot.run();
 
 This bot is just a proof-of-concept for a market-maker bot to support the stellar network expansion and new anchors introduction. It is not intended to be used on the real public network as the currently implemented oracle is not returning perfectly correct market prices and may lose some money value. It is currently configured to run on testnet.
 
-The plan is to increase robustness and precision of market prices and external oracles integrations. If anchors want to use it, the code can be adapted to connect their own market estimations, contact us for mor
+The plan is to increase robustness and precision of market prices and external oracles integrations. If anchors want to use it, the code can be adapted to connect their own market estimations, contact us for more information.
+
+If you have something inte
