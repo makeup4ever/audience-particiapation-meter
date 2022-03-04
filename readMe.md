@@ -111,4 +111,6 @@ This bot is just a proof-of-concept for a market-maker bot to support the stella
 
 The plan is to increase robustness and precision of market prices and external oracles integrations. If anchors want to use it, the code can be adapted to connect their own market estimations, contact us for more information.
 
-If you have something interesting to share with us, we're open to
+If you have something interesting to share with us, we're open to issues or PM.
+
+[npm-image]: http
