@@ -113,4 +113,5 @@ The plan is to increase robustness and precision of market prices and external o
 
 If you have something interesting to share with us, we're open to issues or PM.
 
-[npm-image]: https://img.shields.io/npm/v/garnet-ma
+[npm-image]: https://img.shields.io/npm/v/garnet-market-maker.svg
+[npm-url]: https://ww
