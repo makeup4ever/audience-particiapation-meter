@@ -116,4 +116,5 @@ If you have something interesting to share with us, we're open to issues or PM.
 [npm-image]: https://img.shields.io/npm/v/garnet-market-maker.svg
 [npm-url]: https://www.npmjs.com/package/garnet-market-maker
 [travis-image]: https://api.travis-ci.org/julesGoullee/garnet.svg
-[travis-url]: http
+[travis-url]: https://travis-ci.org/julesGoullee/garnet
+[d
