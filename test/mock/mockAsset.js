@@ -5,4 +5,4 @@ function MockStellarAsset(code, issuer){
 
 }
 
-M
+MockStellarAsset.proto
