@@ -7,4 +7,4 @@ function MockStellarAsset(code, issuer){
 
 MockStellarAsset.prototype.isNative = function isNative(){
 
-  retur
+  return typeof this.issuer !== 'string'
