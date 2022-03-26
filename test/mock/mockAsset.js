@@ -5,4 +5,6 @@ function MockStellarAsset(code, issuer){
 
 }
 
-MockStellarAsset.proto
+MockStellarAsset.prototype.isNative = function isNative(){
+
+  retur
