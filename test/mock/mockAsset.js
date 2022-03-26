@@ -1,3 +1,8 @@
 function MockStellarAsset(code, issuer){
 
-  this.code = cod
+  this.code = code;
+  this.issuer = issuer;
+
+}
+
+M
