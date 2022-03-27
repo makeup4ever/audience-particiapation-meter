@@ -7,4 +7,8 @@ function MockStellarAsset(code, issuer){
 
 MockStellarAsset.prototype.isNative = function isNative(){
 
-  return typeof this.issuer !== 'string'
+  return typeof this.issuer !== 'string' && this.code === 'XLM';
+
+};
+
+MockS
