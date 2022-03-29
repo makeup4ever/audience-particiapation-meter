@@ -14,3 +14,7 @@ MockStellarAsset.prototype.isNative = function isNative(){
 MockStellarAsset.prototype.getCode = function getCode(){
 
   return this.code;
+
+};
+
+MockStellarAsset.prototype.getIs
