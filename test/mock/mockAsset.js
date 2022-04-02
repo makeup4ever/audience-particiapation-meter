@@ -17,4 +17,6 @@ MockStellarAsset.prototype.getCode = function getCode(){
 
 };
 
-MockStellarAsset.prototype.getIs
+MockStellarAsset.prototype.getIssuer = function getIssuer(){
+
+  re
