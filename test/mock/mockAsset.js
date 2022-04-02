@@ -19,4 +19,8 @@ MockStellarAsset.prototype.getCode = function getCode(){
 
 MockStellarAsset.prototype.getIssuer = function getIssuer(){
 
-  re
+  return this.issuer;
+
+};
+
+MockS
