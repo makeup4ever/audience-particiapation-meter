@@ -23,4 +23,4 @@ MockStellarAsset.prototype.getIssuer = function getIssuer(){
 
 };
 
-MockS
+MockStellarAsset.prototype.equals = fu
