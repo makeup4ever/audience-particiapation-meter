@@ -23,4 +23,6 @@ MockStellarAsset.prototype.getIssuer = function getIssuer(){
 
 };
 
-MockStellarAsset.prototype.equals = fu
+MockStellarAsset.prototype.equals = function equals(assetCompare){
+
+  
