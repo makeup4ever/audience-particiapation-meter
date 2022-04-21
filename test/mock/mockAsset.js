@@ -25,4 +25,4 @@ MockStellarAsset.prototype.getIssuer = function getIssuer(){
 
 MockStellarAsset.prototype.equals = function equals(assetCompare){
 
-  return (assetCompare.isNative() && this.isNative() ) || (this.code === 
+  return (assetCompare.isNative() && this.isNative() ) || (this.code === assetCompare.code && this.issuer === ass
