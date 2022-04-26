@@ -29,4 +29,6 @@ MockStellarAsset.prototype.equals = function equals(assetCompare){
 
 };
 
-MockStellarA
+MockStellarAsset.native = function native(){
+
+  retur
