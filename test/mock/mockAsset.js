@@ -31,4 +31,4 @@ MockStellarAsset.prototype.equals = function equals(assetCompare){
 
 MockStellarAsset.native = function native(){
 
-  retur
+  return new MockStellarAsset('XLM', null);
