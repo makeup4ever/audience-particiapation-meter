@@ -32,3 +32,7 @@ MockStellarAsset.prototype.equals = function equals(assetCompare){
 MockStellarAsset.native = function native(){
 
   return new MockStellarAsset('XLM', null);
+
+};
+
+module.exports = MockStella
