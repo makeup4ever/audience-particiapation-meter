@@ -35,4 +35,4 @@ MockStellarAsset.native = function native(){
 
 };
 
-module.exports = MockStella
+module.exports = MockStellarAsset;
