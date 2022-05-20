@@ -3,4 +3,6 @@ const { DB_HOST } = require('../../config/index');
 
 module.exports = function mockCreateClient(){
 
-  return redis.create
+  return redis.createClient({
+    host: DB_HOST,
+    prefix:
