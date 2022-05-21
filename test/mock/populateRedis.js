@@ -50,3 +50,47 @@ const walletsTrade = [
     min: '500',
     perc: '0.1',
     asset: assetInstance({ asset_type: 'native' }),
+    rates: [
+      {
+        asset: assetInstance({
+          asset_code: 'AS1', asset_issuer: 'AS1_ISSUER'
+        }),
+        value: '1.4'
+      },
+      {
+        asset: assetInstance({
+          asset_code: 'AS2', asset_issuer: 'AS2_ISSUER'
+        }),
+        value: '0.7'
+      }
+    ]
+  }
+];
+
+async function launch(){
+
+  const client = await redis.createClient();
+
+  log.info('rateKey', 'FLUSHALL');
+
+  await client.flushallAsync();
+
+  const opts = walletsTrade.reduce( (acc, walletTrade) => {
+
+    const assetKey = `${walletTrade.asset.isNative() ? 'NATIVE-' : ''}${walletTrade.asset.getCode()}`;
+
+    // log.info('assetKey', `${assetKey}|min:${walletTrade.min}|perc:${walletTrade.perc}`);
+
+    acc.push(['hmset', assetKey, 'min', walletTrade.min, 'perc', walletTrade.perc]);
+
+    const rates = walletTrade.rates.map( (rate) => {
+
+      const rateKey = `${walletTrade.asset.isNative() ? 'NATIVE-' : ''}${walletTrade.asset.getCode()}:${rate.asset.isNative() ? 'NATIVE-' : ''}${rate.asset.getCode()}`; // eslint-disable-line max-len
+
+      log.info('rateKey', `${rateKey}|rate:${rate.value}`);
+
+      return ['hmset', rateKey, 'price', rate.value];
+
+    });
+
+    return acc.concat(rates);
