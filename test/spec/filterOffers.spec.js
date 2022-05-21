@@ -166,3 +166,40 @@ describe('filterOffers', () => {
             asset_issuer: 'AS2_ISSUERFake',
             asset: assetInstance({
               asset_code: 'AS2', asset_issuer: 'AS2_ISSUERFake'
+            })
+          },
+          amount: '250.0000000',
+          price_r: {
+            n: 1,
+            d: 1
+          },
+          price: '1.0000000'
+        }
+      ];
+
+      expect(filterOffers(offers, assetSelling, assetBuying) ).to.deep.equals([]);
+
+    });
+
+    it('Should match one into other', () => {
+
+      const assetSelling = new Stellar.Asset('AS1', 'AS1_ISSUER');
+      const assetBuying = new Stellar.Asset('AS2', 'AS2_ISSUER');
+
+      const offers = [
+        {
+          _links: {
+            self: { href: 'https://horizon-testnet.stellar.org/offers/1' },
+            offer_maker: { href: 'https://horizon-testnet.stellar.org/accounts/BOT_ACCOUNT_ID' }
+          },
+          id: 1,
+          paging_token: '1',
+          seller: 'BOT_ACCOUNT_ID',
+          selling: {
+            asset_type: 'credit_alphanum4',
+            asset_code: 'AS1',
+            asset_issuer: 'AS1_ISSUER',
+            asset: assetInstance({
+              asset_code: 'AS1', asset_issuer: 'AS1_ISSUER'
+            })
+          },
