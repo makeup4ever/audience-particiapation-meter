@@ -18,3 +18,35 @@ const walletsTrade = [
       {
         asset: assetInstance({
           asset_code: 'AS2', asset_issuer: 'AS2_ISSUER'
+        }),
+        value: '0.7'
+      },
+      {
+        asset: assetInstance({ asset_type: 'native' }),
+        value: '1.1'
+      }
+    ]
+  },
+  {
+    min: '200',
+    perc: '0.5',
+    asset: assetInstance({
+      asset_code: 'AS2', asset_issuer: 'AS2_ISSUER'
+    }),
+    rates: [
+      {
+        asset: assetInstance({
+          asset_code: 'AS1', asset_issuer: 'AS1_ISSUER'
+        }),
+        value: '1.5'
+      },
+      {
+        asset: assetInstance({ asset_type: 'native' }),
+        value: '0.4'
+      }
+    ]
+  },
+  {
+    min: '500',
+    perc: '0.1',
+    asset: assetInstance({ asset_type: 'native' }),
