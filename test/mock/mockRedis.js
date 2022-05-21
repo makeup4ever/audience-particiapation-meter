@@ -5,4 +5,7 @@ module.exports = function mockCreateClient(){
 
   return redis.createClient({
     host: DB_HOST,
-    prefix:
+    prefix: 'TEST:'
+  });
+
+};
