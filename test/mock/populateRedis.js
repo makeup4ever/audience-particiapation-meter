@@ -94,3 +94,12 @@ async function launch(){
     });
 
     return acc.concat(rates);
+
+  }, []);
+
+  return client.batch(opts).execAsync();
+
+
+}
+
+launch().then( () => log.info('launch', 'Success') ).catch(err => log.error('launch', err) );
