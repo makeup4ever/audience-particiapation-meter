@@ -429,3 +429,15 @@ describe('filterOffers', () => {
           price_r: {
             n: 1,
             d: 1
+          },
+          price: '1.0000000'
+        }
+      ];
+
+      expect(filterOffers(offers, assetSelling, assetBuying) ).to.deep.equals([offers[0], offers[1]]);
+
+    });
+
+  });
+
+});
