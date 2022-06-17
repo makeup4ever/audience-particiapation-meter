@@ -1,3 +1,5 @@
 const { priceToNumber } = require('../../modules/utils');
 
-describe('Price
+describe('PriceToNumber', () => {
+
+  it('Should get in
