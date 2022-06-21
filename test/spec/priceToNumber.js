@@ -15,4 +15,5 @@ describe('PriceToNumber', () => {
   it('Should get equals precision', () => {
 
     expect(priceToNumber({
-      
+      n: '1.2345', d: '2.2345'
+    }) 
