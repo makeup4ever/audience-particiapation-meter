@@ -4,4 +4,5 @@ describe('PriceToNumber', () => {
 
   it('Should get int', () => {
 
-    expect(priceT
+    expect(priceToNumber({
+      n: '1', d: '2'
