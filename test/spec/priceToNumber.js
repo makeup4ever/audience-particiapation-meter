@@ -12,4 +12,6 @@ describe('PriceToNumber', () => {
 
   });
 
-  it('
+  it('Should get equals precision', () => {
+
+  
