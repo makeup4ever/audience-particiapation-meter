@@ -7,4 +7,9 @@ describe('PriceToNumber', () => {
     expect(priceToNumber({
       n: '1', d: '2'
     }) ).to.deep.equals({
-      n
+      n: 1, d: 2
+    });
+
+  });
+
+  it('
