@@ -22,4 +22,4 @@ describe('PriceToNumber', () => {
 
   });
 
- 
+  it('Should get int & float', () =
