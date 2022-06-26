@@ -26,4 +26,5 @@ describe('PriceToNumber', () => {
 
     expect(priceToNumber({
       n: '1.2345', d: '2'
-    }) ).to.dee
+    }) ).to.deep.equals({
+      n: 123
