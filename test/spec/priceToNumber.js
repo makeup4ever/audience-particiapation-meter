@@ -35,4 +35,5 @@ describe('PriceToNumber', () => {
   it('Should get different precisions', () => {
 
     expect(priceToNumber({
-  
+      n: '1.2345', d: '2.234567'
+    }) ).to.deep
