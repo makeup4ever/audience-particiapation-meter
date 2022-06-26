@@ -32,4 +32,4 @@ describe('PriceToNumber', () => {
 
   });
 
-  it('Shou
+  it('Should get different precisions', ()
