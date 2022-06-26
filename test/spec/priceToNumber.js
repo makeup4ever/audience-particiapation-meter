@@ -25,4 +25,5 @@ describe('PriceToNumber', () => {
   it('Should get int & float', () => {
 
     expect(priceToNumber({
-      n
+      n: '1.2345', d: '2'
+    }) ).to.dee
