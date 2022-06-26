@@ -22,4 +22,7 @@ describe('PriceToNumber', () => {
 
   });
 
-  it('Should get int & float', () =
+  it('Should get int & float', () => {
+
+    expect(priceToNumber({
+      n
