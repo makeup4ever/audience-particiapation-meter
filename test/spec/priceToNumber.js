@@ -36,4 +36,5 @@ describe('PriceToNumber', () => {
 
     expect(priceToNumber({
       n: '1.2345', d: '2.234567'
-    }) ).to.deep
+    }) ).to.deep.equals({
+      n: 1234500, d: 223456
