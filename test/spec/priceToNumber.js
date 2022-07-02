@@ -42,4 +42,6 @@ describe('PriceToNumber', () => {
 
   });
 
-  it('Should get differe
+  it('Should get different precisions', () => {
+
+    expect(pr
