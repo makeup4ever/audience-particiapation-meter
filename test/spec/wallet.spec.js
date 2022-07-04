@@ -1,1 +1,1 @@
-/* eslint max-nested-callba
+/* eslint max-nested-callbacks:[2, 5], array-callback-return: 0, camelc
