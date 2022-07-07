@@ -5,4 +5,6 @@ const { assetInstance } = require('../../modules/asset');
 
 describe('Wallet', () => {
 
-  describe('getUpWal
+  describe('getUpWallets', () => {
+
+    it('Shoul
