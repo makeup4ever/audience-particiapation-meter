@@ -3,4 +3,6 @@
 const { getUpWallets, showWallets } = require('../../modules/wallet');
 const { assetInstance } = require('../../modules/asset');
 
-describe('Wallet
+describe('Wallet', () => {
+
+  describe('getUpWal
