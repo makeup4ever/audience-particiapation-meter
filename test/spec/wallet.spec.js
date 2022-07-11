@@ -9,4 +9,8 @@ describe('Wallet', () => {
 
     it('Should return empty for zero wallet', () => {
 
-      expect(getUpWallets([]) ).to.de
+      expect(getUpWallets([]) ).to.deep.equals([]);
+
+    });
+
+    it('
