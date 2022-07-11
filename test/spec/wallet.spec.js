@@ -7,4 +7,4 @@ describe('Wallet', () => {
 
   describe('getUpWallets', () => {
 
-    it('Shoul
+    it('Should return empty for zero wallet', () => {
