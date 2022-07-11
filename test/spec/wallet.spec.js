@@ -8,3 +8,5 @@ describe('Wallet', () => {
   describe('getUpWallets', () => {
 
     it('Should return empty for zero wallet', () => {
+
+      expect(getUpWallets([]) ).to.de
