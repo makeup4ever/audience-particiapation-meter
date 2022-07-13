@@ -17,3 +17,4 @@ describe('Wallet', () => {
 
       const wallets = [
         {
+          balance: '944.0000000',
