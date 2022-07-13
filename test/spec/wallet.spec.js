@@ -13,4 +13,6 @@ describe('Wallet', () => {
 
     });
 
-    it('
+    it('Should return one up wallet', () => {
+
+  
