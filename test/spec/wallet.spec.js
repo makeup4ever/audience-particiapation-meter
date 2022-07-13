@@ -15,4 +15,5 @@ describe('Wallet', () => {
 
     it('Should return one up wallet', () => {
 
-  
+      const wallets = [
+        {
