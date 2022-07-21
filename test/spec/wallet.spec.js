@@ -19,4 +19,5 @@ describe('Wallet', () => {
         {
           balance: '944.0000000',
           limit: '10000',
-          asset_
+          asset_type: 'credit_alphanum4',
+          
