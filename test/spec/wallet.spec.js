@@ -35,4 +35,7 @@ describe('Wallet', () => {
           asset: assetInstance({
             asset_code: 'AS2', asset_issuer: 'AS2_ISSUER'
           })
-    
+        }
+      ];
+
+      expect(getUpW
