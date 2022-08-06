@@ -38,4 +38,8 @@ describe('Wallet', () => {
         }
       ];
 
-      expect(getUpWallets(wallets) ).to.deep.e
+      expect(getUpWallets(wallets) ).to.deep.equals([wallets[0]]);
+
+    });
+
+    i
