@@ -38,4 +38,4 @@ describe('Wallet', () => {
         }
       ];
 
-      expect(getUpW
+      expect(getUpWallets(wallets) ).to.deep.e
