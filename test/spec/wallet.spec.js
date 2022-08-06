@@ -42,4 +42,4 @@ describe('Wallet', () => {
 
     });
 
-    i
+    it('Should return native type wallet', () =
