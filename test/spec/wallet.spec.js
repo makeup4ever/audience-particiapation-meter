@@ -42,4 +42,8 @@ describe('Wallet', () => {
 
     });
 
-    it('Should return native type wallet', () =
+    it('Should return native type wallet', () => {
+
+      const wallets = [
+        {
+  
