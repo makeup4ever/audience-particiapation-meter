@@ -61,4 +61,5 @@ describe('Wallet', () => {
           asset_type: 'credit_alphanum4',
           asset_code: 'AS2',
           asset_issuer: 'AS2_ISSUER',
-          asset: assetI
+          asset: assetInstance({
+            asset_code: '
