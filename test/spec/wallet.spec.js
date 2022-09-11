@@ -72,4 +72,4 @@ describe('Wallet', () => {
         }
       ];
 
-  
+      expect(getUpWallets(wallets) 
