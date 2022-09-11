@@ -68,4 +68,4 @@ describe('Wallet', () => {
         {
           balance: '10.0000000',
           asset_type: 'native',
-        
+          asset: assetInstance({ asset
