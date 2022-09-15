@@ -72,4 +72,4 @@ describe('Wallet', () => {
         }
       ];
 
-      expect(getUpWallets(wallets) 
+      expect(getUpWallets(wallets) ).to.deep.equals([wallets[0], wallets[1], 
