@@ -72,4 +72,10 @@ describe('Wallet', () => {
         }
       ];
 
-      expect(getUpWallets(wallets) ).to.deep.equals([wallets[0], wallets[1], 
+      expect(getUpWallets(wallets) ).to.deep.equals([wallets[0], wallets[1], wallets[2]]);
+
+    });
+
+  });
+
+  describe('showW
