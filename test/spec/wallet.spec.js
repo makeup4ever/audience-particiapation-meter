@@ -78,4 +78,6 @@ describe('Wallet', () => {
 
   });
 
-  describe('showW
+  describe('showWallets', () => {
+
+    it('Should show 
