@@ -80,4 +80,6 @@ describe('Wallet', () => {
 
   describe('showWallets', () => {
 
-    it('Should show 
+    it('Should show asset with code', () => {
+
+ 
