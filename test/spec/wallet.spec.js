@@ -82,4 +82,4 @@ describe('Wallet', () => {
 
     it('Should show asset with code', () => {
 
- 
+      const account = { balances
