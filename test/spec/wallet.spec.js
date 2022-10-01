@@ -95,4 +95,5 @@ describe('Wallet', () => {
         },
         {
           balance: '1.0000000',
-   
+          limit: '10000',
+    
