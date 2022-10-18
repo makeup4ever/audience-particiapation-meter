@@ -105,4 +105,4 @@ describe('Wallet', () => {
         }
       ]};
 
-    
+      expect(showWallets(account)
