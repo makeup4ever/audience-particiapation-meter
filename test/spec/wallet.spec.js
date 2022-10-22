@@ -106,4 +106,5 @@ describe('Wallet', () => {
       ]};
 
       expect(showWallets(account) ).to.deep.equals([
-        'custom:AS
+        'custom:AS1:AS1_ISSUER|Balance:944.0000000',
+ 
