@@ -105,4 +105,5 @@ describe('Wallet', () => {
         }
       ]};
 
-      expect(showWallets(account)
+      expect(showWallets(account) ).to.deep.equals([
+        'custom:AS
