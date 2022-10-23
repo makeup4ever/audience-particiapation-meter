@@ -112,4 +112,4 @@ describe('Wallet', () => {
 
     });
 
-    it('Sh
+    it('Should show asset with code and n
