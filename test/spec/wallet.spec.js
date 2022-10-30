@@ -112,4 +112,7 @@ describe('Wallet', () => {
 
     });
 
-    it('Should show asset with code and n
+    it('Should show asset with code and native', () => {
+
+      const account = { balances: [
+   
