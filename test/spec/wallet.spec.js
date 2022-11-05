@@ -116,4 +116,6 @@ describe('Wallet', () => {
 
       const account = { balances: [
         {
-          balance: '944.0000000
+          balance: '944.0000000',
+          limit: '10000',
+      
