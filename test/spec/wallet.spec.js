@@ -120,4 +120,4 @@ describe('Wallet', () => {
           limit: '10000',
           asset_type: 'credit_alphanum4',
           asset_code: 'AS1',
-       
+          asset_issuer: 'AS1_ISSUER'
