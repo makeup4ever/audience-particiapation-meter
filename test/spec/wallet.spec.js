@@ -122,4 +122,5 @@ describe('Wallet', () => {
           asset_code: 'AS1',
           asset_issuer: 'AS1_ISSUER',
           asset: assetInstance({
-            asset_code: 'AS1', asset_i
+            asset_code: 'AS1', asset_issuer: 'AS1_ISSUER'
+          })
