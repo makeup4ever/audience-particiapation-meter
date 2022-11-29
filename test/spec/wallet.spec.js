@@ -141,3 +141,5 @@ describe('Wallet', () => {
           asset: assetInstance({ asset_type: 'native' })
         }
       ]};
+
+      expect(showWallets(account
