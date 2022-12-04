@@ -18,3 +18,15 @@ mock('stellar-sdk', {
   Operation: {
     manageOffer: offerData => offerData,
     createPassiveOffer: function MockStellarCreatePassiveOffer(offerData){
+
+      this._offerData = offerData;
+      
+      return offerData;
+    
+    }
+  },
+  Server: function MockStellarServer(){},
+  Asset: MockStellarAsset
+});
+
+mock('redis', { createClient: mockCreateClient });
