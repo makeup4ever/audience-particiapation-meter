@@ -146,4 +146,10 @@ describe('Wallet', () => {
         'custom:AS1:AS1_ISSUER|Balance:944.0000000',
         'custom:AS2:AS2_ISSUER|Balance:1.0000000',
         'native|Balance:10.0000000'
-    
+      ]);
+
+    });
+
+  });
+
+});
