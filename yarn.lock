@@ -1413,3 +1413,37 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
 
 sshpk@^1.7.0:
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/sshpk/-/sshpk-1.10.2.tgz#d5a804ce22695515638e798dbe23273de070a5fa"
+  dependencies:
+    asn1 "~0.2.3"
+    assert-plus "^1.0.0"
+    dashdash "^1.12.0"
+    getpass "^0.1.1"
+  optionalDependencies:
+    bcrypt-pbkdf "^1.0.0"
+    ecc-jsbn "~0.1.1"
+    jodid25519 "^1.0.0"
+    jsbn "~0.1.0"
+    tweetnacl "~0.14.0"
+
+stack-trace@~0.0.7:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/stack-trace/-/stack-trace-0.0.9.tgz#a8f6eaeca90674c333e7c43953f275b451510695"
+
+stealthy-require@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.0.0.tgz#1a8ed8fc19a8b56268f76f5a1a3e3832b0c26200"
+
+stellar-base@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/stellar-base/-/stellar-base-0.6.0.tgz#fe47dbf803c3da72a40bb2e1cca4ddd5ca777720"
+  dependencies:
+    base32.js "~0.1.0"
+    bignumber.js "^2.0.7"
+    crc "^3.3.0"
+    js-xdr "^1.0.0"
+    lodash "^4.0.1"
+    sha.js "^2.3.6"
+    tweetnacl "^0.13.0"
+  optionalDependencies:
