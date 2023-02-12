@@ -1374,3 +1374,42 @@ rx-lite@^3.1.2:
 
 sequencify@0.0.7:
   version "0.0.7"
+  resolved "https://registry.yarnpkg.com/sequencify/-/sequencify-0.0.7.tgz#90cff19d02e07027fd767f5ead3e7b95d1e7380c"
+
+set-blocking@~2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
+
+sha.js@^2.3.6:
+  version "2.4.8"
+  resolved "https://registry.yarnpkg.com/sha.js/-/sha.js-2.4.8.tgz#37068c2c476b6baf402d14a49c67f597921f634f"
+  dependencies:
+    inherits "^2.0.1"
+
+shelljs@^0.7.5:
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.7.6.tgz#379cccfb56b91c8601e4793356eb5382924de9ad"
+  dependencies:
+    glob "^7.0.0"
+    interpret "^1.0.0"
+    rechoir "^0.6.2"
+
+signal-exit@^3.0.0:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
+
+slice-ansi@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/slice-ansi/-/slice-ansi-0.0.4.tgz#edbf8903f66f7ce2f8eafd6ceed65e264c831b35"
+
+sntp@1.x.x:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/sntp/-/sntp-1.0.9.tgz#6541184cc90aeea6c6e7b35e2659082443c66198"
+  dependencies:
+    hoek "2.x.x"
+
+sprintf-js@~1.0.2:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+
+sshpk@^1.7.0:
