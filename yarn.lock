@@ -1447,3 +1447,46 @@ stellar-base@^0.6.0:
     sha.js "^2.3.6"
     tweetnacl "^0.13.0"
   optionalDependencies:
+    ed25519 "0.0.4"
+
+stellar-sdk@0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/stellar-sdk/-/stellar-sdk-0.6.2.tgz#0deb628f9712d5c578fc3e10b3637ae5ac9aec70"
+  dependencies:
+    axios "^0.12.0"
+    bluebird "^3.1.5"
+    es6-promise "^3.0.2"
+    event-source-polyfill "0.0.7"
+    eventsource "^0.2.1"
+    jsdoc "^3.4.1"
+    lodash "^4.0.1"
+    stellar-base "^0.6.0"
+    toml "^2.3.0"
+    urijs "^1.16.0"
+
+stream-consume@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/stream-consume/-/stream-consume-0.1.0.tgz#a41ead1a6d6081ceb79f65b061901b6d8f3d1d0f"
+
+string-width@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
+  dependencies:
+    code-point-at "^1.0.0"
+    is-fullwidth-code-point "^1.0.0"
+    strip-ansi "^3.0.0"
+
+string-width@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-2.0.0.tgz#635c5436cc72a6e0c387ceca278d4e2eec52687e"
+  dependencies:
+    is-fullwidth-code-point "^2.0.0"
+    strip-ansi "^3.0.0"
+
+string_decoder@~0.10.x:
+  version "0.10.31"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
+
+stringstream@~0.0.4:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.5.tgz#4e484cd4de5a0bbbee18e46307710a8a81621878"
